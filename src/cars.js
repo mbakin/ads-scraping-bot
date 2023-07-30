@@ -47,7 +47,7 @@ export const cars = {
           year: car.year,
           km: car.km,
           color: car.color,
-          price: [car.price],
+          price: car.price,
           releaseDate: car.releaseDate,
           city: car.city,
           imageUrl: car.imageUrl,
@@ -82,11 +82,71 @@ export const cars = {
     });
   },
 
+  // async [getByFilterSym](page, exportedData = []) {
+  //   await utilities.sleep(1500);
+
+  //   const rows = await page.$$eval(CarListItemSelector, (rows) =>
+  //     rows.map((row) => {
+  //       let dataIdElement = row.getAttribute("id");
+  //       let modelElement = row.querySelector(
+  //         ".listing-modelname div.listing-text-new"
+  //       );
+  //       let titleElement = row.querySelector(
+  //         ".horizontal-half-padder-minus div.listing-text-new"
+  //       );
+  //       let yearElement = row.querySelector("td.listing-text:nth-child(4) a");
+  //       let kmElement = row.querySelector("td.listing-text:nth-child(5) a");
+  //       let colorElement = row.querySelector("td.listing-text:nth-child(6) a");
+  //       let priceElement = row.querySelector(
+  //         "td > div.fade-out-content-wrapper > a > span.listing-price"
+  //       );
+  //       let releaseDateElement = row.querySelector("td.listing-text.tac a");
+  //       let cityElement = row.querySelector(
+  //         "td.listing-text:nth-child(10) span:first-child"
+  //       );
+  //       let imageElement = row.querySelector("img.listing-image");
+  //       let districtElement = row.querySelector(
+  //         "td.listing-text:nth-child(10) span:last-child"
+  //       );
+
+  //       return {
+  //         dataId: dataIdElement ? dataIdElement : null,
+  //         model: modelElement ? modelElement.innerText.trim() : null,
+  //         title: titleElement ? titleElement.innerText.trim() : null,
+  //         year: yearElement ? yearElement.innerText.trim() : null,
+  //         km: kmElement ? kmElement.innerText.trim() : null,
+  //         color: colorElement ? colorElement.innerText.trim() : null,
+  //         price: priceElement
+  //           ? utilities.getSahBotHtmlToNumber(priceElement.innerText.trim())
+  //           : null,
+  //         releaseDate: releaseDateElement
+  //           ? releaseDateElement.innerText.trim()
+  //           : null,
+  //         city: cityElement ? cityElement.title.trim() : null,
+  //         imageUrl: imageElement ? imageElement.src : null,
+  //         district: districtElement ? districtElement.title.trim() : null,
+  //       };
+  //     })
+  //   );
+
+  //   exportedData = exportedData.concat(rows);
+
+  //   return exportedData;
+  // },
   async [getByFilterSym](page, exportedData = []) {
     await utilities.sleep(1500);
 
-    const rows = await page.$$eval(CarListItemSelector, (rows) =>
-      rows.map((row) => {
+    const rows = await page.$$eval(CarListItemSelector, (rows) => {
+      function getSahBotHtmlToNumber(price) {
+        const str = price
+          .replace("TL", "")
+          .trim()
+          .replace(".", "")
+          .replace(",", "");
+        return parseInt(str);
+      }
+
+      return rows.map((row) => {
         let dataIdElement = row.getAttribute("id");
         let modelElement = row.querySelector(
           ".listing-modelname div.listing-text-new"
@@ -98,15 +158,15 @@ export const cars = {
         let kmElement = row.querySelector("td.listing-text:nth-child(5) a");
         let colorElement = row.querySelector("td.listing-text:nth-child(6) a");
         let priceElement = row.querySelector(
-          "td:nth-child(8) span.listing-price"
+          "td > div.fade-out-content-wrapper > a > span.listing-price"
         );
         let releaseDateElement = row.querySelector("td.listing-text.tac a");
         let cityElement = row.querySelector(
-          "td.listing-text:nth-child(10) span:first-child"
+          "td.listing-text:nth-child(9) span:first-child"
         );
         let imageElement = row.querySelector("img.listing-image");
         let districtElement = row.querySelector(
-          "td.listing-text:nth-child(10) span:last-child"
+          "td.listing-text:nth-child(9) span:last-child"
         );
 
         return {
@@ -117,7 +177,7 @@ export const cars = {
           km: kmElement ? kmElement.innerText.trim() : null,
           color: colorElement ? colorElement.innerText.trim() : null,
           price: priceElement
-            ? utilities.getSahBotHtmlToNumber(priceElement.innerText.trim())
+            ? getSahBotHtmlToNumber(priceElement.innerText.trim())
             : null,
           releaseDate: releaseDateElement
             ? releaseDateElement.innerText.trim()
@@ -126,8 +186,8 @@ export const cars = {
           imageUrl: imageElement ? imageElement.src : null,
           district: districtElement ? districtElement.title.trim() : null,
         };
-      })
-    );
+      });
+    });
 
     exportedData = exportedData.concat(rows);
 
