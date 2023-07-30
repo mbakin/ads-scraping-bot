@@ -37,14 +37,26 @@ let main = {
 
         fileOperations.writeToFile(fileName, updatedDbData);
 
+        // let changes = updatedDbData
+        //   .filter((x) => x.prices.length > x.notifyFlagByPrices)
+        //   .sort(
+        //     (a, b) =>
+        //       a.prices[0] -
+        //       a.prices[a.prices.length - 1] -
+        //       (b.prices[0] - b.prices[b.prices.length - 1])
+        //   );
         let changes = updatedDbData
-          .filter((x) => x.prices.length > x.notifyFlagByPrices)
+          .filter(
+            (x) =>
+              Array.isArray(x.prices) && x.prices.length > x.notifyFlagByPrices
+          )
           .sort(
             (a, b) =>
               a.prices[0] -
               a.prices[a.prices.length - 1] -
               (b.prices[0] - b.prices[b.prices.length - 1])
           );
+        console.log(changes);
         // console.log(changes)
         // and update notifyFlags
 

@@ -42,7 +42,16 @@ export const cars = {
       if (carInDb == undefined)
         dbData.push({
           dataId: car.dataId,
-          prices: [car.price],
+          model: car.model,
+          title: car.title,
+          year: car.year,
+          km: car.km,
+          color: car.color,
+          price: [car.price],
+          releaseDate: car.releaseDate,
+          city: car.city,
+          imageUrl: car.imageUrl,
+          district: car.district,
           creationTime: car.releaseDate,
           priceChangeDates: [new Date().toJSON()],
           isDeleted: false,
@@ -54,7 +63,7 @@ export const cars = {
     serviceResult.forEach((car) => {
       let dbCar = dbData.find((x) => x.dataId === car.dataId);
 
-      if (dbCar !== undefined) {
+      if (dbCar !== undefined && dbCar.prices) {
         if (car.price !== dbCar.prices[dbCar.prices.length - 1]) {
           dbCar.prices.push(car.price);
           dbCar.priceChangeDates.push(new Date().toJSON());
@@ -62,6 +71,7 @@ export const cars = {
       }
     });
   },
+
   deleteIfNotExistInDb(dbData, serviceResult) {
     dbData.forEach((car) => {
       let serviceCar = serviceResult.find((x) => x.dataId === car.dataId);
@@ -84,15 +94,19 @@ export const cars = {
         let titleElement = row.querySelector(
           ".horizontal-half-padder-minus div.listing-text-new"
         );
-        let yearElement = row.querySelector("td.listing-text:nth-child(5) a");
-        let kmElement = row.querySelector("td.listing-text:nth-child(6) a");
-        let colorElement = row.querySelector("td.listing-text:nth-child(7) a");
+        let yearElement = row.querySelector("td.listing-text:nth-child(4) a");
+        let kmElement = row.querySelector("td.listing-text:nth-child(5) a");
+        let colorElement = row.querySelector("td.listing-text:nth-child(6) a");
         let priceElement = row.querySelector(
           "td:nth-child(8) span.listing-price"
         );
         let releaseDateElement = row.querySelector("td.listing-text.tac a");
         let cityElement = row.querySelector(
-          "td.listing-text:nth-child(10) span"
+          "td.listing-text:nth-child(10) span:first-child"
+        );
+        let imageElement = row.querySelector("img.listing-image");
+        let districtElement = row.querySelector(
+          "td.listing-text:nth-child(10) span:last-child"
         );
 
         return {
@@ -109,6 +123,8 @@ export const cars = {
             ? releaseDateElement.innerText.trim()
             : null,
           city: cityElement ? cityElement.title.trim() : null,
+          imageUrl: imageElement ? imageElement.src : null,
+          district: districtElement ? districtElement.title.trim() : null,
         };
       })
     );
