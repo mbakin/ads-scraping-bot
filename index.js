@@ -37,14 +37,6 @@ let main = {
 
         fileOperations.writeToFile(fileName, updatedDbData);
 
-        // let changes = updatedDbData
-        //   .filter((x) => x.prices.length > x.notifyFlagByPrices)
-        //   .sort(
-        //     (a, b) =>
-        //       a.prices[0] -
-        //       a.prices[a.prices.length - 1] -
-        //       (b.prices[0] - b.prices[b.prices.length - 1])
-        //   );
         let changes = updatedDbData
           .filter(
             (x) =>
@@ -57,12 +49,6 @@ let main = {
               (b.prices[0] - b.prices[b.prices.length - 1])
           );
         console.log(changes);
-        // console.log(changes)
-        // and update notifyFlags
-
-        // const fileName=`db/cars/${utilities.getCurrentDateForFileFormat()}${model}.json`;
-        // fileOperations.writeToFile(fileName,serviceResult);
-        // console.log(`writed ${serviceResult.length} ${model}`);
       }
     }
   },

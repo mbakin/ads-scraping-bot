@@ -1,6 +1,6 @@
 export const filters = {
   getegeafilter() {
-    return ["https://www.arabam.com/ikinci-el/otomobil/fiat-egea"];
+    return ["ikinci-el/otomobil/fiat-egea"];
   },
   getbmwfilter() {
     return ["ikinci-el/otomobil/bmw"];
@@ -9,9 +9,9 @@ export const filters = {
     return ["ikinci-el/otomobil/golf"];
   },
   getpassatfilter() {
-    return ["https://www.arabam.com/ikinci-el/otomobil/volkswagen-passat"];
+    return ["ikinci-el/otomobil/passat"];
   },
   getmeganefilter() {
-    return ["https://www.arabam.com/ikinci-el/otomobil/renault-megane"];
+    return ["ikinci-el/otomobil/renault-megane"];
   },
 };
