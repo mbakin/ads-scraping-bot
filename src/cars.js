@@ -19,6 +19,27 @@ export const cars = {
 
     await utilities.sleep(1500);
 
+    let nextPage = true;
+    let pageNumber = 1;
+    while (nextPage && pageNumber <= 5) {
+      let rows = await cars[getByFilterSym](page);
+
+      exportedData = exportedData.concat(rows);
+
+      console.log(`transaction in progress with ${rows.length} data.`);
+
+      const nextButton = await page.$("#pagingNext"); // Sonraki butonunun CSS seçicisini doğru değer ile değiştirin
+      if (nextButton) {
+        await Promise.all([
+          nextButton.click(), // Butona tıkla
+          page.waitForNavigation({ waitUntil: "networkidle0" }), // Ve sayfanın yüklenmesini bekle
+        ]);
+        pageNumber++;
+      } else {
+        nextPage = false;
+      }
+    }
+
     let rows = await cars[getByFilterSym](page);
 
     exportedData = exportedData.concat(rows);
