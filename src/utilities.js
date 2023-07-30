@@ -24,8 +24,4 @@ export const utilities = {
       date.getMinutes()
     );
   },
-  // getSahBotHtmlToNumber(price){
-  //     const str =price.replace("<div>","").replace("TL","").replace("</div>","").trim().replace(".","").replace(",","");
-  //     return parseInt(str);
-  // }
 };
