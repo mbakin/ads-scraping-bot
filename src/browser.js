@@ -30,14 +30,7 @@ export const browser = {
       browser.browserOpened = false;
     });
 
-    await page.setRequestInterception(true);
-    page.on("request", (req) => {
-      if (req.resourceType() === "image") {
-        req.abort();
-      } else {
-        req.continue();
-      }
-    });
+    page.setDefaultNavigationTimeout(60000);
 
     browser.getInstance = () => browser[symbol];
   },
