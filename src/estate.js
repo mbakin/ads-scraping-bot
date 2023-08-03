@@ -28,9 +28,7 @@ export const estate = {
 
       console.log(`transaction in progress with ${rows.length} data.`);
 
-      const nextButton = await page.$(
-        ".he-pagination__navigate-text he-pagination__navigate-text--next"
-      ); // Sonraki butonunun CSS seçicisini doğru değer ile değiştirin
+      const nextButton = await page.$("a.he-pagination__navigate-text--next"); // Sonraki butonunun CSS seçicisini doğru değer ile değiştirin
       if (nextButton) {
         await Promise.all([
           nextButton.click(), // Butona tıkla
@@ -111,12 +109,10 @@ export const estate = {
     const rows = await page.$$eval(estateListItemSelector, (rows) => {
       return rows.map((row) => {
         let dataIdElement = row.getAttribute("id");
-        let titleElement = row.querySelector("section.upper sibling h3");
+        let titleElement = row.querySelector("article.listingView h3");
         let priceElement = row.querySelector("span.list-view-price");
         let dateElement = row.querySelector("span.list-view-date");
-        let typeElement = row.querySelector(
-          "section.middle sibling div.left span"
-        );
+        let typeElement = row.querySelector("section.middle div.left span");
         let roomCountElement = row.querySelector("span.houseRoomCount");
         let squareMeterElement = row.querySelector("span.squareMeter");
         let buildingAgeElement = row.querySelector("span.buildingAge");
