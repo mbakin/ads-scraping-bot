@@ -2,6 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
 import { cars } from "./src/cars.js";
+import { estate } from "./src/estate.js";
 import { filters } from "./src/filters.js";
 import { fileOperations } from "./src/file.js";
 
@@ -68,7 +69,7 @@ let main = {
 
             console.log("starting estate: " + estateFilter);
 
-            const serviceResult = await estates.getByFilters(
+            const serviceResult = await estate.getByFilters(
               filters[`get${estateFilter}filter`]()
             );
             console.log(`found ${serviceResult.length} estates`);
@@ -77,7 +78,7 @@ let main = {
 
             const dbData = fileOperations.readFile(fileName);
 
-            const updatedDbData = await estates.getUpdatedDbData(
+            const updatedDbData = await estate.getUpdatedDbData(
               dbData,
               serviceResult
             );

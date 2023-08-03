@@ -14,4 +14,20 @@ export const filters = {
   getmeganefilter() {
     return ["ikinci-el/otomobil/renault-megane"];
   },
+
+  getkiralikfilter() {
+    return ["kiralik"];
+  },
+  getizmirkiralikfilter() {
+    return ["izmir-kiralik"];
+  },
+  getistanbulkiralikfilter() {
+    return ["istanbul-kiralik"];
+  },
+  getankarakiralikfilter() {
+    return ["ankara-kiralik"];
+  },
+  getbursakiralikfilter() {
+    return ["bursa-kiralik"];
+  },
 };

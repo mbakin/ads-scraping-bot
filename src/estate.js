@@ -1,10 +1,10 @@
-import { carListItemSelector, carUrl } from "./consts.js";
+import { estateUrl, estateListItemSelector } from "./consts.js";
 import { browser } from "./browser.js";
 import { utilities } from "./utilities.js";
 
 const getByFilterSym = Symbol("getByFilter");
 
-export const cars = {
+export const estate = {
   async getByFilters(filterQueries = [], exportedData = []) {
     if (filterQueries.length == 0) return exportedData;
 
@@ -15,20 +15,22 @@ export const cars = {
 
     const query = filterQueries[0];
 
-    await page.goto(`${carUrl}/${query}`);
+    await page.goto(`${estateUrl}/${query}`);
 
     await utilities.sleep(1500);
 
     let nextPage = true;
     let pageNumber = 1;
     while (nextPage && pageNumber <= 5) {
-      let rows = await cars[getByFilterSym](page);
+      let rows = await estate[getByFilterSym](page);
 
       exportedData = exportedData.concat(rows);
 
       console.log(`transaction in progress with ${rows.length} data.`);
 
-      const nextButton = await page.$("#pagingNext"); // Sonraki butonunun CSS seçicisini doğru değer ile değiştirin
+      const nextButton = await page.$(
+        ".he-pagination__navigate-text he-pagination__navigate-text--next"
+      ); // Sonraki butonunun CSS seçicisini doğru değer ile değiştirin
       if (nextButton) {
         await Promise.all([
           nextButton.click(), // Butona tıkla
@@ -40,7 +42,7 @@ export const cars = {
       }
     }
 
-    let rows = await cars[getByFilterSym](page);
+    let rows = await estate[getByFilterSym](page);
 
     exportedData = exportedData.concat(rows);
 
@@ -57,29 +59,30 @@ export const cars = {
     return dbData;
   },
   createIfNotExist(dbData, serviceResult) {
-    serviceResult.forEach((car) => {
-      let carInDb = dbData.find((x) => x.dataId === car.dataId);
+    serviceResult.forEach((estate) => {
+      let estateInDb = dbData.find((x) => x.dataId === estate.dataId);
 
-      if (carInDb == undefined)
+      if (estateInDb == undefined)
         dbData.push({
-          dataId: car.dataId,
-          model: car.model,
-          title: car.title,
-          year: car.year,
-          km: car.km,
-          color: car.color,
-          price: car.price,
-          releaseDate: car.releaseDate,
-          city: car.city,
-          imageUrl: car.imageUrl,
-          district: car.district,
-          creationTime: car.releaseDate,
+          dataId: estate.dataId,
+          title: estate.title,
+          type: estate.type,
+          roomCount: estate.roomCount,
+          squareMeter: estate.squareMeter,
+          buildingAge: estate.buildingAge,
+          floorType: estate.floorType,
+          price: estate.price,
+          date: estate.date,
+          city: estate.city,
+          imageUrl: estate.imageUrl,
+          creationTime: estate.date,
           priceChangeDates: [new Date().toJSON()],
           isDeleted: false,
           notifyFlagByPrices: 1,
         });
     });
   },
+
   updateIfPriceChanged(dbData, serviceResult) {
     serviceResult.forEach((car) => {
       let dbCar = dbData.find((x) => x.dataId === car.dataId);
@@ -102,64 +105,60 @@ export const cars = {
       }
     });
   },
-
   async [getByFilterSym](page, exportedData = []) {
     await utilities.sleep(1500);
 
-    const rows = await page.$$eval(carListItemSelector, (rows) => {
-      function getSahBotHtmlToNumber(price) {
-        let str = price
-          .replace(".", "")
-          .replace(",", ".")
-          .replace(" TL", "")
-          .trim();
-        let num = parseFloat(str);
-
-        if (str.replace(".", "").length >= 7) {
-          num = num * 1000;
-        }
-
-        return num;
-      }
-
+    const rows = await page.$$eval(estateListItemSelector, (rows) => {
       return rows.map((row) => {
         let dataIdElement = row.getAttribute("id");
-        let modelElement = row.querySelector(
-          ".listing-modelname div.listing-text-new"
+        let titleElement = row.querySelector("section.upper sibling h3");
+        let priceElement = row.querySelector("span.list-view-price");
+        let dateElement = row.querySelector("span.list-view-date");
+        let typeElement = row.querySelector(
+          "section.middle sibling div.left span"
         );
-        let titleElement = row.querySelector(
-          ".horizontal-half-padder-minus div.listing-text-new"
-        );
-        let yearElement = row.querySelector("td.listing-text:nth-child(4) a");
-        let kmElement = row.querySelector("td.listing-text:nth-child(5) a");
-        let colorElement = row.querySelector("td.listing-text:nth-child(6) a");
-        let priceElement = row.querySelector(
-          "td > div.fade-out-content-wrapper > a > span.listing-price"
-        );
-        let releaseDateElement = row.querySelector("td.listing-text.tac a");
+        let roomCountElement = row.querySelector("span.houseRoomCount");
+        let squareMeterElement = row.querySelector("span.squareMeter");
+        let buildingAgeElement = row.querySelector("span.buildingAge");
+        let floorTypeElement = row.querySelector("span.floortype");
         let cityElement = row.querySelector(
-          "td.listing-text:nth-child(9) span:first-child"
+          "div.list-view-location span:first-child"
         );
-        let imageElement = row.querySelector("img.listing-image");
         let districtElement = row.querySelector(
-          "td.listing-text:nth-child(9) span:last-child"
+          "div.list-view-location span:last-child"
         );
+        let imageElement = row.querySelector("img.list-view-image");
+
         return {
           dataId: dataIdElement ? dataIdElement : null,
-          model: modelElement ? modelElement.innerText.trim() : null,
           title: titleElement ? titleElement.innerText.trim() : null,
-          year: yearElement ? yearElement.innerText.trim() : null,
-          km: kmElement ? kmElement.innerText.trim() : null,
-          color: colorElement ? colorElement.innerText.trim() : null,
           price: priceElement
-            ? getSahBotHtmlToNumber(priceElement.innerText.trim())
+            ? parseFloat(
+                priceElement.innerText.replace(".", "").replace(",", ".")
+              )
             : null,
-          releaseDate: releaseDateElement
-            ? releaseDateElement.innerText.trim()
+          date: dateElement ? dateElement.innerText.trim() : null,
+          type: typeElement ? typeElement.innerText.trim() : null,
+          roomCount: roomCountElement
+            ? roomCountElement.innerText.trim()
             : null,
-          city: cityElement ? cityElement.title.trim() : null,
+          squareMeter: squareMeterElement
+            ? parseFloat(
+                squareMeterElement.innerText
+                  .replace(" m2", "")
+                  .replace(".", "")
+                  .replace(",", ".")
+              )
+            : null,
+          buildingAge: buildingAgeElement
+            ? buildingAgeElement.innerText.trim()
+            : null,
+          floorType: floorTypeElement
+            ? floorTypeElement.innerText.trim()
+            : null,
+          city: cityElement ? cityElement.innerText.trim() : null,
+          district: districtElement ? districtElement.innerText.trim() : null,
           imageUrl: imageElement ? imageElement.src : null,
-          district: districtElement ? districtElement.title.trim() : null,
         };
       });
     });
