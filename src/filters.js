@@ -30,4 +30,19 @@ export const filters = {
   getbursakiralikfilter() {
     return ["bursa-kiralik"];
   },
+  getsatilikfilter() {
+    return ["satilik"];
+  },
+  getistanbulsatilikfilter() {
+    return ["istanbul-satilik"];
+  },
+  getizmirsatilikfilter() {
+    return ["izmir-satilik"];
+  },
+  getankarasatilikfilter() {
+    return ["ankara-satilik"];
+  },
+  getbursasatilikfilter() {
+    return ["bursa-satilik"];
+  },
 };

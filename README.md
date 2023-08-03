@@ -2,7 +2,7 @@
 
 Example using
 
-`node index.js car=egea`
+`node index.js type=car car=egea` & `node index.js type=estate estate=istanbulkiralik`
 
 If you would to add a new filter for cars, you could change the filter.js file.
 

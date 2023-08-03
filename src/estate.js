@@ -32,7 +32,7 @@ export const estate = {
       if (nextButton) {
         await Promise.all([
           nextButton.click(), // Butona tıkla
-          page.waitForNavigation({ waitUntil: "networkidle0" }), // Ve sayfanın yüklenmesini bekle
+          page.waitForNavigation({ waitUntil: "networkidle2" }), // Ve sayfanın yüklenmesini bekle
         ]);
         pageNumber++;
       } else {
