@@ -28,11 +28,11 @@ export const cars = {
 
       console.log(`transaction in progress with ${rows.length} data.`);
 
-      const nextButton = await page.$("#pagingNext"); // Sonraki butonunun CSS seçicisini doğru değer ile değiştirin
+      const nextButton = await page.$("#pagingNext");
       if (nextButton) {
         await Promise.all([
-          nextButton.click(), // Butona tıkla
-          page.waitForNavigation({ waitUntil: "networkidle0" }), // Ve sayfanın yüklenmesini bekle
+          nextButton.click(),
+          page.waitForNavigation({ waitUntil: "networkidle0" }),
         ]);
         pageNumber++;
       } else {
