@@ -45,4 +45,7 @@ export const filters = {
   getbursasatilikfilter() {
     return ["bursa-satilik"];
   },
+  getarsasatilikfilter() {
+    return ["satilik/arsa"];
+  },
 };

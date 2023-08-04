@@ -21,18 +21,20 @@ export const estate = {
 
     let nextPage = true;
     let pageNumber = 1;
-    while (nextPage && pageNumber <= 5) {
+    while (nextPage && pageNumber <= 30) {
+      // TODO: page patladiginda kaldigi yerden devam etmesini sagla
+      // TODO: kiralik dosyasi varsa uzerine yazmasin yeni bir dosya olustur timestamp ile
       let rows = await estate[getByFilterSym](page);
 
       exportedData = exportedData.concat(rows);
 
       console.log(`transaction in progress with ${rows.length} data.`);
 
-      const nextButton = await page.$("a.he-pagination__navigate-text--next"); // Sonraki butonunun CSS seçicisini doğru değer ile değiştirin
+      const nextButton = await page.$("a.he-pagination__navigate-text--next");
       if (nextButton) {
         await Promise.all([
-          nextButton.click(), // Butona tıkla
-          page.waitForNavigation({ waitUntil: "networkidle2" }), // Ve sayfanın yüklenmesini bekle
+          nextButton.click(),
+          page.waitForNavigation({ waitUntil: "networkidle2" }),
         ]);
         pageNumber++;
       } else {
