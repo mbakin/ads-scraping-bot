@@ -12,16 +12,13 @@ filter.js
 
 ```JS
 
-getc3Filter(){
-return [
-"citroen-c3?a5_min=2012&a5_max=2012&sorting=price_asc",
-"citroen-c3?a5_min=2013&a5_max=2013&sorting=price_asc"
-];
-}
+  getgolffilter() {
+    return ["ikinci-el/otomobil/golf"];
+  }
 ```
 
 using with c3
-`node index.js car=c3`
+`node index.js type=car car=golf`
 
 Extra Note
 if you use a different version of chrome from me, you could change the ChromeExecPath in consts.js
