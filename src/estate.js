@@ -15,15 +15,19 @@ export const estate = {
 
     const query = filterQueries[0];
 
-    await page.goto(`${estateUrl}/${query}`);
+    await page.goto(`${estateUrl}/${query}`, {
+      waitUntil: "networkidle2",
+      timeout: "5000",
+    });
 
     await utilities.sleep(1500);
 
     let nextPage = true;
     let pageNumber = 1;
-    while (nextPage && pageNumber <= 30) {
+    while (nextPage && pageNumber <= 20) {
       // TODO: page patladiginda kaldigi yerden devam etmesini sagla
       // TODO: kiralik dosyasi varsa uzerine yazmasin yeni bir dosya olustur timestamp ile
+      // TODO: her fetch isleminden sonra birkac sayfa beklemesini sagla
       let rows = await estate[getByFilterSym](page);
 
       exportedData = exportedData.concat(rows);
@@ -34,7 +38,7 @@ export const estate = {
       if (nextButton) {
         await Promise.all([
           nextButton.click(),
-          page.waitForNavigation({ waitUntil: "networkidle2" }),
+          page.waitForNavigation({ waitUntil: "networkidle0" }),
         ]);
         pageNumber++;
       } else {

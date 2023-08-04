@@ -30,7 +30,7 @@ export const browser = {
       browser.browserOpened = false;
     });
 
-    page.setDefaultNavigationTimeout(60000);
+    page.setDefaultNavigationTimeout(600000);
 
     browser.getInstance = () => browser[symbol];
   },

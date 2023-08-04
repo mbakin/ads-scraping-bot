@@ -1,0 +1,2411 @@
+{
+  "SelectedVehicle": {
+    "CategoryName": "Klasik Araçlar",
+    "BrandLogo": "https://arbstorage.mncdn.com/category-icons-app/klasik-araclar.png",
+    "BrandName": "Mercedes - Benz",
+    "Name": "Mercedes - Benz 200",
+    "AdvertProperties": null,
+    "ModelId": 0
+  },
+  "AdvertInfo": [
+    {
+      "Currency": {
+        "Currencies": [
+          {
+            "Key": 2,
+            "Name": "Usd",
+            "Description": "USD"
+          },
+          {
+            "Key": 4,
+            "Name": "Eur",
+            "Description": "EUR"
+          },
+          {
+            "Key": 5,
+            "Name": "Gbp",
+            "Description": "GBP"
+          },
+          {
+            "Key": 6,
+            "Name": "Tl",
+            "Description": "TL"
+          }
+        ],
+        "SelectedValue": {
+          "Key": 6,
+          "Name": "Tl",
+          "Description": "TL"
+        }
+      },
+      "PriceSuggestion": {
+        "Minimum": 0,
+        "Maximum": 0,
+        "MaximumFormatted": null,
+        "MinimumFormatted": null,
+        "Percentiles": [],
+        "MonthlyChanges": null,
+        "ChangeByLastSixMonths": null,
+        "RecommendedPrice": 0,
+        "RecommendedPriceFormatted": null,
+        "RecommendedPricePercentage": 0,
+        "CategoryName": null
+      },
+      "Min": 10000,
+      "Max": 999999999,
+      "Value": {
+        "Value": "",
+        "DisplayValue": ""
+      },
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": true,
+      "IsRequiredForExpress": false,
+      "HasValue": false,
+      "IsFullField": false,
+      "Key": "Price",
+      "Type": {
+        "Key": 20,
+        "Name": "Price",
+        "Description": "Price"
+      },
+      "InputType": {
+        "Key": 120,
+        "Name": "Price",
+        "Description": "Price"
+      },
+      "Name": "Fiyat",
+      "Placeholder": "Fiyat Giriniz",
+      "Description": "Alıcıların ilk baktıkları bu bilgilerin doğru olması aracını satabilmen için çok önemli!\r\n\r\n\r\n\r\n\r\n",
+      "Unit": null,
+      "WarnMessage": null
+    },
+    {
+      "Values": [
+        {
+          "Id": 1986,
+          "IconPath": null,
+          "Value": "1986",
+          "DisplayValue": "1986"
+        },
+        {
+          "Id": 1985,
+          "IconPath": null,
+          "Value": "1985",
+          "DisplayValue": "1985"
+        },
+        {
+          "Id": 1984,
+          "IconPath": null,
+          "Value": "1984",
+          "DisplayValue": "1984"
+        },
+        {
+          "Id": 1983,
+          "IconPath": null,
+          "Value": "1983",
+          "DisplayValue": "1983"
+        },
+        {
+          "Id": 1982,
+          "IconPath": null,
+          "Value": "1982",
+          "DisplayValue": "1982"
+        },
+        {
+          "Id": 1981,
+          "IconPath": null,
+          "Value": "1981",
+          "DisplayValue": "1981"
+        },
+        {
+          "Id": 1980,
+          "IconPath": null,
+          "Value": "1980",
+          "DisplayValue": "1980"
+        },
+        {
+          "Id": 1979,
+          "IconPath": null,
+          "Value": "1979",
+          "DisplayValue": "1979"
+        },
+        {
+          "Id": 1978,
+          "IconPath": null,
+          "Value": "1978",
+          "DisplayValue": "1978"
+        },
+        {
+          "Id": 1977,
+          "IconPath": null,
+          "Value": "1977",
+          "DisplayValue": "1977"
+        },
+        {
+          "Id": 1976,
+          "IconPath": null,
+          "Value": "1976",
+          "DisplayValue": "1976"
+        },
+        {
+          "Id": 1975,
+          "IconPath": null,
+          "Value": "1975",
+          "DisplayValue": "1975"
+        },
+        {
+          "Id": 1974,
+          "IconPath": null,
+          "Value": "1974",
+          "DisplayValue": "1974"
+        },
+        {
+          "Id": 1973,
+          "IconPath": null,
+          "Value": "1973",
+          "DisplayValue": "1973"
+        },
+        {
+          "Id": 1972,
+          "IconPath": null,
+          "Value": "1972",
+          "DisplayValue": "1972"
+        },
+        {
+          "Id": 1971,
+          "IconPath": null,
+          "Value": "1971",
+          "DisplayValue": "1971"
+        },
+        {
+          "Id": 1970,
+          "IconPath": null,
+          "Value": "1970",
+          "DisplayValue": "1970"
+        },
+        {
+          "Id": 1969,
+          "IconPath": null,
+          "Value": "1969",
+          "DisplayValue": "1969"
+        },
+        {
+          "Id": 1968,
+          "IconPath": null,
+          "Value": "1968",
+          "DisplayValue": "1968"
+        },
+        {
+          "Id": 1967,
+          "IconPath": null,
+          "Value": "1967",
+          "DisplayValue": "1967"
+        },
+        {
+          "Id": 1966,
+          "IconPath": null,
+          "Value": "1966",
+          "DisplayValue": "1966"
+        },
+        {
+          "Id": 1965,
+          "IconPath": null,
+          "Value": "1965",
+          "DisplayValue": "1965"
+        },
+        {
+          "Id": 1964,
+          "IconPath": null,
+          "Value": "1964",
+          "DisplayValue": "1964"
+        },
+        {
+          "Id": 1963,
+          "IconPath": null,
+          "Value": "1963",
+          "DisplayValue": "1963"
+        },
+        {
+          "Id": 1962,
+          "IconPath": null,
+          "Value": "1962",
+          "DisplayValue": "1962"
+        },
+        {
+          "Id": 1961,
+          "IconPath": null,
+          "Value": "1961",
+          "DisplayValue": "1961"
+        },
+        {
+          "Id": 1960,
+          "IconPath": null,
+          "Value": "1960",
+          "DisplayValue": "1960"
+        },
+        {
+          "Id": 1959,
+          "IconPath": null,
+          "Value": "1959",
+          "DisplayValue": "1959"
+        },
+        {
+          "Id": 1958,
+          "IconPath": null,
+          "Value": "1958",
+          "DisplayValue": "1958"
+        },
+        {
+          "Id": 1957,
+          "IconPath": null,
+          "Value": "1957",
+          "DisplayValue": "1957"
+        },
+        {
+          "Id": 1956,
+          "IconPath": null,
+          "Value": "1956",
+          "DisplayValue": "1956"
+        },
+        {
+          "Id": 1955,
+          "IconPath": null,
+          "Value": "1955",
+          "DisplayValue": "1955"
+        },
+        {
+          "Id": 1954,
+          "IconPath": null,
+          "Value": "1954",
+          "DisplayValue": "1954"
+        },
+        {
+          "Id": 1953,
+          "IconPath": null,
+          "Value": "1953",
+          "DisplayValue": "1953"
+        },
+        {
+          "Id": 1952,
+          "IconPath": null,
+          "Value": "1952",
+          "DisplayValue": "1952"
+        },
+        {
+          "Id": 1951,
+          "IconPath": null,
+          "Value": "1951",
+          "DisplayValue": "1951"
+        },
+        {
+          "Id": 1950,
+          "IconPath": null,
+          "Value": "1950",
+          "DisplayValue": "1950"
+        },
+        {
+          "Id": 1949,
+          "IconPath": null,
+          "Value": "1949",
+          "DisplayValue": "1949"
+        },
+        {
+          "Id": 1948,
+          "IconPath": null,
+          "Value": "1948",
+          "DisplayValue": "1948"
+        },
+        {
+          "Id": 1947,
+          "IconPath": null,
+          "Value": "1947",
+          "DisplayValue": "1947"
+        },
+        {
+          "Id": 1946,
+          "IconPath": null,
+          "Value": "1946",
+          "DisplayValue": "1946"
+        },
+        {
+          "Id": 1945,
+          "IconPath": null,
+          "Value": "1945",
+          "DisplayValue": "1945"
+        },
+        {
+          "Id": 1944,
+          "IconPath": null,
+          "Value": "1944",
+          "DisplayValue": "1944"
+        },
+        {
+          "Id": 1943,
+          "IconPath": null,
+          "Value": "1943",
+          "DisplayValue": "1943"
+        },
+        {
+          "Id": 1942,
+          "IconPath": null,
+          "Value": "1942",
+          "DisplayValue": "1942"
+        },
+        {
+          "Id": 1941,
+          "IconPath": null,
+          "Value": "1941",
+          "DisplayValue": "1941"
+        },
+        {
+          "Id": 1940,
+          "IconPath": null,
+          "Value": "1940",
+          "DisplayValue": "1940"
+        },
+        {
+          "Id": 1939,
+          "IconPath": null,
+          "Value": "1939",
+          "DisplayValue": "1939"
+        },
+        {
+          "Id": 1938,
+          "IconPath": null,
+          "Value": "1938",
+          "DisplayValue": "1938"
+        },
+        {
+          "Id": 1937,
+          "IconPath": null,
+          "Value": "1937",
+          "DisplayValue": "1937"
+        },
+        {
+          "Id": 1936,
+          "IconPath": null,
+          "Value": "1936",
+          "DisplayValue": "1936"
+        },
+        {
+          "Id": 1935,
+          "IconPath": null,
+          "Value": "1935",
+          "DisplayValue": "1935"
+        },
+        {
+          "Id": 1934,
+          "IconPath": null,
+          "Value": "1934",
+          "DisplayValue": "1934"
+        },
+        {
+          "Id": 1933,
+          "IconPath": null,
+          "Value": "1933",
+          "DisplayValue": "1933"
+        },
+        {
+          "Id": 1932,
+          "IconPath": null,
+          "Value": "1932",
+          "DisplayValue": "1932"
+        },
+        {
+          "Id": 1931,
+          "IconPath": null,
+          "Value": "1931",
+          "DisplayValue": "1931"
+        },
+        {
+          "Id": 1930,
+          "IconPath": null,
+          "Value": "1930",
+          "DisplayValue": "1930"
+        },
+        {
+          "Id": 1929,
+          "IconPath": null,
+          "Value": "1929",
+          "DisplayValue": "1929"
+        },
+        {
+          "Id": 1928,
+          "IconPath": null,
+          "Value": "1928",
+          "DisplayValue": "1928"
+        },
+        {
+          "Id": 1927,
+          "IconPath": null,
+          "Value": "1927",
+          "DisplayValue": "1927"
+        },
+        {
+          "Id": 1926,
+          "IconPath": null,
+          "Value": "1926",
+          "DisplayValue": "1926"
+        },
+        {
+          "Id": 1925,
+          "IconPath": null,
+          "Value": "1925",
+          "DisplayValue": "1925"
+        },
+        {
+          "Id": 1924,
+          "IconPath": null,
+          "Value": "1924",
+          "DisplayValue": "1924"
+        },
+        {
+          "Id": 1923,
+          "IconPath": null,
+          "Value": "1923",
+          "DisplayValue": "1923"
+        },
+        {
+          "Id": 1922,
+          "IconPath": null,
+          "Value": "1922",
+          "DisplayValue": "1922"
+        },
+        {
+          "Id": 1921,
+          "IconPath": null,
+          "Value": "1921",
+          "DisplayValue": "1921"
+        },
+        {
+          "Id": 1920,
+          "IconPath": null,
+          "Value": "1920",
+          "DisplayValue": "1920"
+        }
+      ],
+      "SelectedValue": null,
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": true,
+      "IsRequiredForExpress": true,
+      "HasValue": false,
+      "IsFullField": false,
+      "Key": "-1",
+      "Type": {
+        "Key": 40,
+        "Name": "DynamicProperty",
+        "Description": "DynamicProperty"
+      },
+      "InputType": {
+        "Key": 50,
+        "Name": "Select",
+        "Description": "Select"
+      },
+      "Name": "Yıl",
+      "Placeholder": "Yıl Seçiniz",
+      "Description": null,
+      "Unit": null,
+      "WarnMessage": "'Klasik Araçlar' kategorisinde 1986 ve öncesi üretim yılına ait marka ve modeller bulunmaktadır.",
+      "Min": null,
+      "Max": null
+    },
+    {
+      "Value": {
+        "Min": null,
+        "Max": 99999999,
+        "ValidationMultiplier": null,
+        "Value": null,
+        "DisplayValue": null
+      },
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": true,
+      "IsRequiredForExpress": true,
+      "HasValue": false,
+      "IsFullField": false,
+      "Key": "46",
+      "Type": {
+        "Key": 40,
+        "Name": "DynamicProperty",
+        "Description": "DynamicProperty"
+      },
+      "InputType": {
+        "Key": 20,
+        "Name": "NumberText",
+        "Description": "NumberText"
+      },
+      "Name": "Kilometre",
+      "Placeholder": "Kilometre Giriniz",
+      "Description": "Alıcıların ilk baktıkları bu bilgilerin doğru olması aracını satabilmen için çok önemli!",
+      "Unit": "km",
+      "WarnMessage": null,
+      "Min": null,
+      "Max": 99999999
+    },
+    {
+      "Values": [
+        {
+          "Id": 6,
+          "IconPath": null,
+          "Value": "Düz",
+          "DisplayValue": "Düz"
+        },
+        {
+          "Id": 7,
+          "IconPath": null,
+          "Value": "Otomatik",
+          "DisplayValue": "Otomatik"
+        },
+        {
+          "Id": 8,
+          "IconPath": null,
+          "Value": "Yarı Otomatik",
+          "DisplayValue": "Yarı Otomatik"
+        }
+      ],
+      "SelectedValue": null,
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": true,
+      "IsRequiredForExpress": true,
+      "HasValue": false,
+      "IsFullField": false,
+      "Key": "15",
+      "Type": {
+        "Key": 40,
+        "Name": "DynamicProperty",
+        "Description": "DynamicProperty"
+      },
+      "InputType": {
+        "Key": 50,
+        "Name": "Select",
+        "Description": "Select"
+      },
+      "Name": "Vites Tipi",
+      "Placeholder": "Vites Tipi Seçiniz",
+      "Description": "Alıcıların ilk baktıkları bu bilgilerin doğru olması aracını satabilmen için çok önemli!",
+      "Unit": null,
+      "WarnMessage": null,
+      "Min": null,
+      "Max": null
+    },
+    {
+      "Values": [
+        {
+          "Id": 1,
+          "IconPath": null,
+          "Value": "Benzin",
+          "DisplayValue": "Benzin"
+        },
+        {
+          "Id": 2,
+          "IconPath": null,
+          "Value": "Dizel",
+          "DisplayValue": "Dizel"
+        },
+        {
+          "Id": 3,
+          "IconPath": null,
+          "Value": "Elektrik",
+          "DisplayValue": "Elektrik"
+        },
+        {
+          "Id": 4,
+          "IconPath": null,
+          "Value": "Hibrit",
+          "DisplayValue": "Hibrit"
+        },
+        {
+          "Id": 5,
+          "IconPath": null,
+          "Value": "LPG",
+          "DisplayValue": "LPG & Benzin"
+        }
+      ],
+      "SelectedValue": null,
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": true,
+      "IsRequiredForExpress": true,
+      "HasValue": false,
+      "IsFullField": false,
+      "Key": "7",
+      "Type": {
+        "Key": 40,
+        "Name": "DynamicProperty",
+        "Description": "DynamicProperty"
+      },
+      "InputType": {
+        "Key": 50,
+        "Name": "Select",
+        "Description": "Select"
+      },
+      "Name": "Yakıt Tipi",
+      "Placeholder": "Yakıt Tipi Seçiniz",
+      "Description": "Alıcıların ilk baktıkları bu bilgilerin doğru olması aracını satabilmen için çok önemli!",
+      "Unit": null,
+      "WarnMessage": null,
+      "Min": null,
+      "Max": null
+    },
+    {
+      "Values": [
+        {
+          "Id": 333,
+          "IconPath": null,
+          "Value": "Cabrio",
+          "DisplayValue": "Cabrio"
+        },
+        {
+          "Id": 13,
+          "IconPath": null,
+          "Value": "Coupe",
+          "DisplayValue": "Coupe"
+        },
+        {
+          "Id": 20,
+          "IconPath": null,
+          "Value": "Hatchback/3",
+          "DisplayValue": "Hatchback/3"
+        },
+        {
+          "Id": 21,
+          "IconPath": null,
+          "Value": "Hatchback/5",
+          "DisplayValue": "Hatchback/5"
+        },
+        {
+          "Id": 30,
+          "IconPath": null,
+          "Value": "MPV",
+          "DisplayValue": "MPV"
+        },
+        {
+          "Id": 35,
+          "IconPath": null,
+          "Value": "Roadster",
+          "DisplayValue": "Roadster"
+        },
+        {
+          "Id": 38,
+          "IconPath": null,
+          "Value": "Sedan",
+          "DisplayValue": "Sedan"
+        },
+        {
+          "Id": 39,
+          "IconPath": null,
+          "Value": "Station wagon",
+          "DisplayValue": "Station wagon"
+        }
+      ],
+      "SelectedValue": null,
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": true,
+      "IsRequiredForExpress": true,
+      "HasValue": false,
+      "IsFullField": false,
+      "Key": "38",
+      "Type": {
+        "Key": 40,
+        "Name": "DynamicProperty",
+        "Description": "DynamicProperty"
+      },
+      "InputType": {
+        "Key": 50,
+        "Name": "Select",
+        "Description": "Select"
+      },
+      "Name": "Kasa Tipi",
+      "Placeholder": "Kasa Tipi Seçiniz",
+      "Description": "Araç bilgilerini detaylı paylaş, ilanın arama sonuçlarında daha fazla görüntülensin.",
+      "Unit": null,
+      "WarnMessage": null,
+      "Min": null,
+      "Max": null
+    },
+    {
+      "Value": {
+        "Min": 0,
+        "Max": 13000,
+        "ValidationMultiplier": null,
+        "Value": null,
+        "DisplayValue": null
+      },
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": true,
+      "IsRequiredForExpress": true,
+      "HasValue": false,
+      "IsFullField": false,
+      "Key": "23",
+      "Type": {
+        "Key": 40,
+        "Name": "DynamicProperty",
+        "Description": "DynamicProperty"
+      },
+      "InputType": {
+        "Key": 20,
+        "Name": "NumberText",
+        "Description": "NumberText"
+      },
+      "Name": "Motor Hacmi",
+      "Placeholder": "Motor Hacmini Giriniz",
+      "Description": "Araç bilgilerini detaylı paylaş, ilanın arama sonuçlarında daha fazla görüntülensin.",
+      "Unit": "cm3",
+      "WarnMessage": null,
+      "Min": 0,
+      "Max": 13000
+    },
+    {
+      "Value": {
+        "Min": 0,
+        "Max": 10000,
+        "ValidationMultiplier": null,
+        "Value": null,
+        "DisplayValue": null
+      },
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": true,
+      "IsRequiredForExpress": true,
+      "HasValue": false,
+      "IsFullField": false,
+      "Key": "30",
+      "Type": {
+        "Key": 40,
+        "Name": "DynamicProperty",
+        "Description": "DynamicProperty"
+      },
+      "InputType": {
+        "Key": 20,
+        "Name": "NumberText",
+        "Description": "NumberText"
+      },
+      "Name": "Motor Gücü",
+      "Placeholder": "Motor Gücü Giriniz",
+      "Description": "Araç bilgilerini detaylı paylaş, ilanın arama sonuçlarında daha fazla görüntülensin.",
+      "Unit": "hp",
+      "WarnMessage": null,
+      "Min": 0,
+      "Max": 10000
+    },
+    {
+      "Values": [
+        {
+          "Id": 51,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/altin.png?v=20180205112013?v=20230804095821",
+          "Value": "Altın",
+          "DisplayValue": "Altın"
+        },
+        {
+          "Id": 52,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/bej.png?v=20180205112013?v=20230804095821",
+          "Value": "Bej",
+          "DisplayValue": "Bej"
+        },
+        {
+          "Id": 53,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/beyaz.png?v=20180205112013?v=20230804095821",
+          "Value": "Beyaz",
+          "DisplayValue": "Beyaz"
+        },
+        {
+          "Id": 54,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/bordo.png?v=20180205112013?v=20230804095821",
+          "Value": "Bordo",
+          "DisplayValue": "Bordo"
+        },
+        {
+          "Id": 56,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/fume.png?v=20180205112013?v=20230804095821",
+          "Value": "Füme",
+          "DisplayValue": "Füme"
+        },
+        {
+          "Id": 57,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/gri.png?v=20180205112013?v=20230804095821",
+          "Value": "Gri",
+          "DisplayValue": "Gri"
+        },
+        {
+          "Id": 58,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/gri-gumus.png?v=20180205112013?v=20230804095821",
+          "Value": "Gri (Gümüş)",
+          "DisplayValue": "Gri (Gümüş)"
+        },
+        {
+          "Id": 59,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/gri-metalik.png?v=20180205112013?v=20230804095821",
+          "Value": "Gri (metalik)",
+          "DisplayValue": "Gri (metalik)"
+        },
+        {
+          "Id": 60,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/gri-titanyum.png?v=20180205112013?v=20230804095821",
+          "Value": "Gri (titanyum)",
+          "DisplayValue": "Gri (titanyum)"
+        },
+        {
+          "Id": 61,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/kahverengi.png?v=20180205112013?v=20230804095821",
+          "Value": "Kahverengi",
+          "DisplayValue": "Kahverengi"
+        },
+        {
+          "Id": 62,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/kirmizi.png?v=20180205112013?v=20230804095821",
+          "Value": "Kırmızı",
+          "DisplayValue": "Kırmızı"
+        },
+        {
+          "Id": 63,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/lacivert.png?v=20180205112013?v=20230804095821",
+          "Value": "Lacivert",
+          "DisplayValue": "Lacivert"
+        },
+        {
+          "Id": 64,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/mavi.png?v=20180205112013?v=20230804095821",
+          "Value": "Mavi",
+          "DisplayValue": "Mavi"
+        },
+        {
+          "Id": 65,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/mavi-metalik.png?v=20180205112013?v=20230804095821",
+          "Value": "Mavi (metalik)",
+          "DisplayValue": "Mavi (metalik)"
+        },
+        {
+          "Id": 66,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/mor.png?v=20180205112013?v=20230804095821",
+          "Value": "Mor",
+          "DisplayValue": "Mor"
+        },
+        {
+          "Id": 456,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/pembe.png?v=20180205112013?v=20230804095821",
+          "Value": "Pembe",
+          "DisplayValue": "Pembe"
+        },
+        {
+          "Id": 67,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/sari.png?v=20180205112013?v=20230804095821",
+          "Value": "Sarı",
+          "DisplayValue": "Sarı"
+        },
+        {
+          "Id": 68,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/siyah.png?v=20180205112013?v=20230804095821",
+          "Value": "Siyah",
+          "DisplayValue": "Siyah"
+        },
+        {
+          "Id": 69,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/sampanya.png?v=20180205112013?v=20230804095821",
+          "Value": "Şampanya",
+          "DisplayValue": "Şampanya"
+        },
+        {
+          "Id": 459,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/turkuaz.png?v=20180205112013?v=20230804095821",
+          "Value": "Turkuaz",
+          "DisplayValue": "Turkuaz"
+        },
+        {
+          "Id": 70,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/turuncu.png?v=20180205112013?v=20230804095821",
+          "Value": "Turuncu",
+          "DisplayValue": "Turuncu"
+        },
+        {
+          "Id": 71,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/yesil.png?v=20180205112013?v=20230804095821",
+          "Value": "Yeşil",
+          "DisplayValue": "Yeşil"
+        },
+        {
+          "Id": 72,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/yesil-metalik.png?v=20180205112013?v=20230804095821",
+          "Value": "Yeşil (metalik)",
+          "DisplayValue": "Yeşil (metalik)"
+        },
+        {
+          "Id": 55,
+          "IconPath": "https://arbimg1.mncdn.com/assets/dist/img/express-ilan/colors/diger.png?v=20180205112013?v=20230804095821",
+          "Value": "Diğer",
+          "DisplayValue": "Diğer"
+        }
+      ],
+      "SelectedValue": null,
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": true,
+      "IsRequiredForExpress": true,
+      "HasValue": false,
+      "IsFullField": false,
+      "Key": "70",
+      "Type": {
+        "Key": 40,
+        "Name": "DynamicProperty",
+        "Description": "DynamicProperty"
+      },
+      "InputType": {
+        "Key": 70,
+        "Name": "Color",
+        "Description": "Color"
+      },
+      "Name": "Renk",
+      "Placeholder": "Renk Seçiniz",
+      "Description": "Araç bilgilerini detaylı paylaş, ilanın arama sonuçlarında daha fazla görüntülensin.",
+      "Unit": null,
+      "WarnMessage": null,
+      "Min": null,
+      "Max": null
+    },
+    {
+      "Values": [
+        {
+          "Id": 45,
+          "IconPath": null,
+          "Value": "Bireysel",
+          "DisplayValue": "Bireysel"
+        },
+        {
+          "Id": 48,
+          "IconPath": null,
+          "Value": "Şirket",
+          "DisplayValue": "Şirket"
+        },
+        {
+          "Id": 49,
+          "IconPath": null,
+          "Value": "Taksi",
+          "DisplayValue": "Taksi"
+        }
+      ],
+      "SelectedValue": 45,
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": true,
+      "IsRequiredForExpress": true,
+      "HasValue": true,
+      "IsFullField": false,
+      "Key": "55",
+      "Type": {
+        "Key": 40,
+        "Name": "DynamicProperty",
+        "Description": "DynamicProperty"
+      },
+      "InputType": {
+        "Key": 50,
+        "Name": "Select",
+        "Description": "Select"
+      },
+      "Name": "Araç Türü",
+      "Placeholder": "Araç Türü Seçiniz",
+      "Description": "Araç bilgilerini detaylı paylaş, ilanın arama sonuçlarında daha fazla görüntülensin.",
+      "Unit": null,
+      "WarnMessage": null,
+      "Min": null,
+      "Max": null
+    },
+    {
+      "Values": [
+        {
+          "Id": 73,
+          "IconPath": null,
+          "Value": "(TR) Türkiye",
+          "DisplayValue": "(TR) Türkiye"
+        },
+        {
+          "Id": 74,
+          "IconPath": null,
+          "Value": "Mavi plakalı",
+          "DisplayValue": "Mavi plakalı"
+        },
+        {
+          "Id": 75,
+          "IconPath": null,
+          "Value": "Yabancı plakalı",
+          "DisplayValue": "Yabancı plakalı"
+        }
+      ],
+      "SelectedValue": 73,
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": true,
+      "IsRequiredForExpress": true,
+      "HasValue": true,
+      "IsFullField": false,
+      "Key": "79",
+      "Type": {
+        "Key": 40,
+        "Name": "DynamicProperty",
+        "Description": "DynamicProperty"
+      },
+      "InputType": {
+        "Key": 50,
+        "Name": "Select",
+        "Description": "Select"
+      },
+      "Name": "Plaka Uyruğu",
+      "Placeholder": "Plaka Uyruğu Seçiniz",
+      "Description": "Araç bilgilerini detaylı paylaş, ilanın arama sonuçlarında daha fazla görüntülensin.",
+      "Unit": null,
+      "WarnMessage": null,
+      "Min": null,
+      "Max": null
+    },
+    {
+      "Value": {
+        "Value": "Sahibinden Mercedes - Benz 200 ",
+        "DisplayValue": "Sahibinden Mercedes - Benz 200 "
+      },
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": true,
+      "IsRequiredForExpress": true,
+      "HasValue": true,
+      "IsFullField": true,
+      "Key": "Title",
+      "Type": {
+        "Key": 10,
+        "Name": "Title",
+        "Description": "Title"
+      },
+      "InputType": {
+        "Key": 22,
+        "Name": "FullWidthStringText",
+        "Description": "FullWidthStringText"
+      },
+      "Name": "İlan Başlığı",
+      "Placeholder": "İlan Başlığı Giriniz",
+      "Description": "İlan listesinde diğer ilanlardan ayrışmak için dikkat çekici ve açıklayıcı bir başlık yaz!",
+      "Unit": null,
+      "WarnMessage": null,
+      "Min": null,
+      "Max": null
+    },
+    {
+      "Value": {
+        "Value": null,
+        "DisplayValue": null
+      },
+      "Points": [
+        {
+          "Min": 300,
+          "Max": null,
+          "Point": 4
+        },
+        {
+          "Min": null,
+          "Max": 299,
+          "Point": 2
+        }
+      ],
+      "IsRequired": false,
+      "IsRequiredForExpress": false,
+      "HasValue": false,
+      "IsFullField": true,
+      "Key": "Description",
+      "Type": {
+        "Key": 30,
+        "Name": "Description",
+        "Description": "Description"
+      },
+      "InputType": {
+        "Key": 90,
+        "Name": "HtmlInput",
+        "Description": "HtmlInput"
+      },
+      "Name": "Açıklama",
+      "Placeholder": "Açıklama Giriniz",
+      "Description": "Aracını senden daha iyi anlatan olamaz. Bu alanda alıcılara aracının boya - değişen durumundan daha detaylı bahsedebilir, neden sattığını anlatabilirsin. ",
+      "Unit": null,
+      "WarnMessage": null,
+      "Min": null,
+      "Max": null
+    }
+  ],
+  "Address": {
+    "Location": {
+      "Cities": [
+        {
+          "Name": "İstanbul",
+          "LicenseTag": "34",
+          "DisplayOrder": -3,
+          "CountryId": 1,
+          "FriendlyUrl": "istanbul",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 34
+        },
+        {
+          "Name": "Ankara",
+          "LicenseTag": "6",
+          "DisplayOrder": -2,
+          "CountryId": 1,
+          "FriendlyUrl": "ankara",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 6
+        },
+        {
+          "Name": "İzmir",
+          "LicenseTag": "35",
+          "DisplayOrder": -1,
+          "CountryId": 1,
+          "FriendlyUrl": "izmir",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 35
+        },
+        {
+          "Name": "Adana",
+          "LicenseTag": "1",
+          "DisplayOrder": 1,
+          "CountryId": 1,
+          "FriendlyUrl": "adana",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 1
+        },
+        {
+          "Name": "Adıyaman",
+          "LicenseTag": "2",
+          "DisplayOrder": 2,
+          "CountryId": 1,
+          "FriendlyUrl": "adiyaman",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 2
+        },
+        {
+          "Name": "Afyonkarahisar",
+          "LicenseTag": "3",
+          "DisplayOrder": 3,
+          "CountryId": 1,
+          "FriendlyUrl": "afyonkarahisar",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 3
+        },
+        {
+          "Name": "Ağrı",
+          "LicenseTag": "4",
+          "DisplayOrder": 4,
+          "CountryId": 1,
+          "FriendlyUrl": "agri",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 4
+        },
+        {
+          "Name": "Aksaray",
+          "LicenseTag": "68",
+          "DisplayOrder": 5,
+          "CountryId": 1,
+          "FriendlyUrl": "aksaray",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 68
+        },
+        {
+          "Name": "Amasya",
+          "LicenseTag": "5",
+          "DisplayOrder": 6,
+          "CountryId": 1,
+          "FriendlyUrl": "amasya",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 5
+        },
+        {
+          "Name": "Antalya",
+          "LicenseTag": "7",
+          "DisplayOrder": 8,
+          "CountryId": 1,
+          "FriendlyUrl": "antalya",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 7
+        },
+        {
+          "Name": "Ardahan",
+          "LicenseTag": "75",
+          "DisplayOrder": 9,
+          "CountryId": 1,
+          "FriendlyUrl": "ardahan",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 75
+        },
+        {
+          "Name": "Artvin",
+          "LicenseTag": "8",
+          "DisplayOrder": 10,
+          "CountryId": 1,
+          "FriendlyUrl": "artvin",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 8
+        },
+        {
+          "Name": "Aydın",
+          "LicenseTag": "9",
+          "DisplayOrder": 11,
+          "CountryId": 1,
+          "FriendlyUrl": "aydin",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 9
+        },
+        {
+          "Name": "Balıkesir",
+          "LicenseTag": "10",
+          "DisplayOrder": 12,
+          "CountryId": 1,
+          "FriendlyUrl": "balikesir",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 10
+        },
+        {
+          "Name": "Bartın",
+          "LicenseTag": "74",
+          "DisplayOrder": 13,
+          "CountryId": 1,
+          "FriendlyUrl": "bartin",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 74
+        },
+        {
+          "Name": "Batman",
+          "LicenseTag": "72",
+          "DisplayOrder": 14,
+          "CountryId": 1,
+          "FriendlyUrl": "batman",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 72
+        },
+        {
+          "Name": "Bayburt",
+          "LicenseTag": "69",
+          "DisplayOrder": 15,
+          "CountryId": 1,
+          "FriendlyUrl": "bayburt",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 69
+        },
+        {
+          "Name": "Bilecik",
+          "LicenseTag": "11",
+          "DisplayOrder": 16,
+          "CountryId": 1,
+          "FriendlyUrl": "bilecik",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 11
+        },
+        {
+          "Name": "Bingöl",
+          "LicenseTag": "12",
+          "DisplayOrder": 17,
+          "CountryId": 1,
+          "FriendlyUrl": "bingol",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 12
+        },
+        {
+          "Name": "Bitlis",
+          "LicenseTag": "13",
+          "DisplayOrder": 18,
+          "CountryId": 1,
+          "FriendlyUrl": "bitlis",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 13
+        },
+        {
+          "Name": "Bolu",
+          "LicenseTag": "14",
+          "DisplayOrder": 19,
+          "CountryId": 1,
+          "FriendlyUrl": "bolu",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 14
+        },
+        {
+          "Name": "Burdur",
+          "LicenseTag": "15",
+          "DisplayOrder": 20,
+          "CountryId": 1,
+          "FriendlyUrl": "burdur",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 15
+        },
+        {
+          "Name": "Bursa",
+          "LicenseTag": "16",
+          "DisplayOrder": 21,
+          "CountryId": 1,
+          "FriendlyUrl": "bursa",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 16
+        },
+        {
+          "Name": "Çanakkale",
+          "LicenseTag": "17",
+          "DisplayOrder": 22,
+          "CountryId": 1,
+          "FriendlyUrl": "canakkale",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 17
+        },
+        {
+          "Name": "Çankırı",
+          "LicenseTag": "18",
+          "DisplayOrder": 23,
+          "CountryId": 1,
+          "FriendlyUrl": "cankiri",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 18
+        },
+        {
+          "Name": "Çorum",
+          "LicenseTag": "19",
+          "DisplayOrder": 24,
+          "CountryId": 1,
+          "FriendlyUrl": "corum",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 19
+        },
+        {
+          "Name": "Denizli",
+          "LicenseTag": "20",
+          "DisplayOrder": 25,
+          "CountryId": 1,
+          "FriendlyUrl": "denizli",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 20
+        },
+        {
+          "Name": "Diyarbakır",
+          "LicenseTag": "21",
+          "DisplayOrder": 26,
+          "CountryId": 1,
+          "FriendlyUrl": "diyarbakir",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 21
+        },
+        {
+          "Name": "Düzce",
+          "LicenseTag": "81",
+          "DisplayOrder": 27,
+          "CountryId": 1,
+          "FriendlyUrl": "duzce",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 81
+        },
+        {
+          "Name": "Edirne",
+          "LicenseTag": "22",
+          "DisplayOrder": 28,
+          "CountryId": 1,
+          "FriendlyUrl": "edirne",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 22
+        },
+        {
+          "Name": "Elazığ",
+          "LicenseTag": "23",
+          "DisplayOrder": 29,
+          "CountryId": 1,
+          "FriendlyUrl": "elazig",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 23
+        },
+        {
+          "Name": "Erzincan",
+          "LicenseTag": "24",
+          "DisplayOrder": 30,
+          "CountryId": 1,
+          "FriendlyUrl": "erzincan",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 24
+        },
+        {
+          "Name": "Erzurum",
+          "LicenseTag": "25",
+          "DisplayOrder": 31,
+          "CountryId": 1,
+          "FriendlyUrl": "erzurum",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 25
+        },
+        {
+          "Name": "Eskişehir",
+          "LicenseTag": "26",
+          "DisplayOrder": 32,
+          "CountryId": 1,
+          "FriendlyUrl": "eskisehir",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 26
+        },
+        {
+          "Name": "Gaziantep",
+          "LicenseTag": "27",
+          "DisplayOrder": 33,
+          "CountryId": 1,
+          "FriendlyUrl": "gaziantep",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 27
+        },
+        {
+          "Name": "Giresun",
+          "LicenseTag": "28",
+          "DisplayOrder": 34,
+          "CountryId": 1,
+          "FriendlyUrl": "giresun",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 28
+        },
+        {
+          "Name": "Gümüşhane",
+          "LicenseTag": "29",
+          "DisplayOrder": 35,
+          "CountryId": 1,
+          "FriendlyUrl": "gumushane",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 29
+        },
+        {
+          "Name": "Hakkari",
+          "LicenseTag": "30",
+          "DisplayOrder": 36,
+          "CountryId": 1,
+          "FriendlyUrl": "hakkari",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 30
+        },
+        {
+          "Name": "Hatay",
+          "LicenseTag": "31",
+          "DisplayOrder": 37,
+          "CountryId": 1,
+          "FriendlyUrl": "hatay",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 31
+        },
+        {
+          "Name": "Iğdır",
+          "LicenseTag": "76",
+          "DisplayOrder": 38,
+          "CountryId": 1,
+          "FriendlyUrl": "igdir",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 76
+        },
+        {
+          "Name": "Isparta",
+          "LicenseTag": "32",
+          "DisplayOrder": 39,
+          "CountryId": 1,
+          "FriendlyUrl": "isparta",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 32
+        },
+        {
+          "Name": "Kahramanmaraş",
+          "LicenseTag": "46",
+          "DisplayOrder": 42,
+          "CountryId": 1,
+          "FriendlyUrl": "kahramanmaras",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 46
+        },
+        {
+          "Name": "Karabük",
+          "LicenseTag": "78",
+          "DisplayOrder": 43,
+          "CountryId": 1,
+          "FriendlyUrl": "karabuk",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 78
+        },
+        {
+          "Name": "Karaman",
+          "LicenseTag": "70",
+          "DisplayOrder": 44,
+          "CountryId": 1,
+          "FriendlyUrl": "karaman",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 70
+        },
+        {
+          "Name": "Kars",
+          "LicenseTag": "36",
+          "DisplayOrder": 45,
+          "CountryId": 1,
+          "FriendlyUrl": "kars",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 36
+        },
+        {
+          "Name": "Kastamonu",
+          "LicenseTag": "37",
+          "DisplayOrder": 46,
+          "CountryId": 1,
+          "FriendlyUrl": "kastamonu",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 37
+        },
+        {
+          "Name": "Kayseri",
+          "LicenseTag": "38",
+          "DisplayOrder": 47,
+          "CountryId": 1,
+          "FriendlyUrl": "kayseri",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 38
+        },
+        {
+          "Name": "Kırıkkale",
+          "LicenseTag": "71",
+          "DisplayOrder": 48,
+          "CountryId": 1,
+          "FriendlyUrl": "kirikkale",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 71
+        },
+        {
+          "Name": "Kırklareli",
+          "LicenseTag": "39",
+          "DisplayOrder": 49,
+          "CountryId": 1,
+          "FriendlyUrl": "kirklareli",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 39
+        },
+        {
+          "Name": "Kırşehir",
+          "LicenseTag": "40",
+          "DisplayOrder": 50,
+          "CountryId": 1,
+          "FriendlyUrl": "kirsehir",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 40
+        },
+        {
+          "Name": "Kilis",
+          "LicenseTag": "79",
+          "DisplayOrder": 51,
+          "CountryId": 1,
+          "FriendlyUrl": "kilis",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 79
+        },
+        {
+          "Name": "KKTC",
+          "LicenseTag": "90",
+          "DisplayOrder": 52,
+          "CountryId": 3,
+          "FriendlyUrl": "kktc",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 82
+        },
+        {
+          "Name": "Kocaeli",
+          "LicenseTag": "41",
+          "DisplayOrder": 53,
+          "CountryId": 1,
+          "FriendlyUrl": "kocaeli",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 41
+        },
+        {
+          "Name": "Konya",
+          "LicenseTag": "42",
+          "DisplayOrder": 54,
+          "CountryId": 1,
+          "FriendlyUrl": "konya",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 42
+        },
+        {
+          "Name": "Kütahya",
+          "LicenseTag": "43",
+          "DisplayOrder": 55,
+          "CountryId": 1,
+          "FriendlyUrl": "kutahya",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 43
+        },
+        {
+          "Name": "Malatya",
+          "LicenseTag": "44",
+          "DisplayOrder": 56,
+          "CountryId": 1,
+          "FriendlyUrl": "malatya",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 44
+        },
+        {
+          "Name": "Manisa",
+          "LicenseTag": "45",
+          "DisplayOrder": 57,
+          "CountryId": 1,
+          "FriendlyUrl": "manisa",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 45
+        },
+        {
+          "Name": "Mardin",
+          "LicenseTag": "47",
+          "DisplayOrder": 58,
+          "CountryId": 1,
+          "FriendlyUrl": "mardin",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 47
+        },
+        {
+          "Name": "Mersin",
+          "LicenseTag": "33",
+          "DisplayOrder": 59,
+          "CountryId": 1,
+          "FriendlyUrl": "mersin",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 33
+        },
+        {
+          "Name": "Muğla",
+          "LicenseTag": "48",
+          "DisplayOrder": 60,
+          "CountryId": 1,
+          "FriendlyUrl": "mugla",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 48
+        },
+        {
+          "Name": "Muş",
+          "LicenseTag": "49",
+          "DisplayOrder": 61,
+          "CountryId": 1,
+          "FriendlyUrl": "mus",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 49
+        },
+        {
+          "Name": "Nevşehir",
+          "LicenseTag": "50",
+          "DisplayOrder": 62,
+          "CountryId": 1,
+          "FriendlyUrl": "nevsehir",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 50
+        },
+        {
+          "Name": "Niğde",
+          "LicenseTag": "51",
+          "DisplayOrder": 63,
+          "CountryId": 1,
+          "FriendlyUrl": "nigde",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 51
+        },
+        {
+          "Name": "Ordu",
+          "LicenseTag": "52",
+          "DisplayOrder": 64,
+          "CountryId": 1,
+          "FriendlyUrl": "ordu",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 52
+        },
+        {
+          "Name": "Osmaniye",
+          "LicenseTag": "80",
+          "DisplayOrder": 65,
+          "CountryId": 1,
+          "FriendlyUrl": "osmaniye",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 80
+        },
+        {
+          "Name": "Rize",
+          "LicenseTag": "53",
+          "DisplayOrder": 66,
+          "CountryId": 1,
+          "FriendlyUrl": "rize",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 53
+        },
+        {
+          "Name": "Sakarya",
+          "LicenseTag": "54",
+          "DisplayOrder": 67,
+          "CountryId": 1,
+          "FriendlyUrl": "sakarya",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 54
+        },
+        {
+          "Name": "Samsun",
+          "LicenseTag": "55",
+          "DisplayOrder": 68,
+          "CountryId": 1,
+          "FriendlyUrl": "samsun",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 55
+        },
+        {
+          "Name": "Siirt",
+          "LicenseTag": "56",
+          "DisplayOrder": 69,
+          "CountryId": 1,
+          "FriendlyUrl": "siirt",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 56
+        },
+        {
+          "Name": "Sinop",
+          "LicenseTag": "57",
+          "DisplayOrder": 70,
+          "CountryId": 1,
+          "FriendlyUrl": "sinop",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 57
+        },
+        {
+          "Name": "Sivas",
+          "LicenseTag": "58",
+          "DisplayOrder": 71,
+          "CountryId": 1,
+          "FriendlyUrl": "sivas",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 58
+        },
+        {
+          "Name": "Şanlıurfa",
+          "LicenseTag": "63",
+          "DisplayOrder": 72,
+          "CountryId": 1,
+          "FriendlyUrl": "sanliurfa",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 63
+        },
+        {
+          "Name": "Şırnak",
+          "LicenseTag": "73",
+          "DisplayOrder": 73,
+          "CountryId": 1,
+          "FriendlyUrl": "sirnak",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 73
+        },
+        {
+          "Name": "Tekirdağ",
+          "LicenseTag": "59",
+          "DisplayOrder": 74,
+          "CountryId": 1,
+          "FriendlyUrl": "tekirdag",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 59
+        },
+        {
+          "Name": "Tokat",
+          "LicenseTag": "60",
+          "DisplayOrder": 75,
+          "CountryId": 1,
+          "FriendlyUrl": "tokat",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 60
+        },
+        {
+          "Name": "Trabzon",
+          "LicenseTag": "61",
+          "DisplayOrder": 76,
+          "CountryId": 1,
+          "FriendlyUrl": "trabzon",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 61
+        },
+        {
+          "Name": "Tunceli",
+          "LicenseTag": "62",
+          "DisplayOrder": 77,
+          "CountryId": 1,
+          "FriendlyUrl": "tunceli",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 62
+        },
+        {
+          "Name": "Uşak",
+          "LicenseTag": "64",
+          "DisplayOrder": 78,
+          "CountryId": 1,
+          "FriendlyUrl": "usak",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 64
+        },
+        {
+          "Name": "Van",
+          "LicenseTag": "65",
+          "DisplayOrder": 79,
+          "CountryId": 1,
+          "FriendlyUrl": "van",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 65
+        },
+        {
+          "Name": "Yalova",
+          "LicenseTag": "77",
+          "DisplayOrder": 80,
+          "CountryId": 1,
+          "FriendlyUrl": "yalova",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 77
+        },
+        {
+          "Name": "Yozgat",
+          "LicenseTag": "66",
+          "DisplayOrder": 81,
+          "CountryId": 1,
+          "FriendlyUrl": "yozgat",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 66
+        },
+        {
+          "Name": "Zonguldak",
+          "LicenseTag": "67",
+          "DisplayOrder": 82,
+          "CountryId": 1,
+          "FriendlyUrl": "zonguldak",
+          "Active": true,
+          "IsRegion": false,
+          "Id": 67
+        }
+      ],
+      "Counties": null,
+      "Districts": null,
+      "SelectedCity": null,
+      "SelectedCounty": null,
+      "SelectedDistrict": null
+    },
+    "Points": [
+      {
+        "Point": 1
+      }
+    ],
+    "IsRequired": false,
+    "IsRequiredForExpress": false,
+    "HasValue": false,
+    "IsFullField": false,
+    "Key": "Location",
+    "Type": {
+      "Key": 100,
+      "Name": "Location",
+      "Description": "Location"
+    },
+    "InputType": null,
+    "Name": "Konum",
+    "Placeholder": null,
+    "Description": "Alıcılar evlerine yakın olan ilanları daha çok tercih ediyor. Detaylı bir konum yakınındaki alıcıların sana kolayca ulaşmasını sağlar.",
+    "Unit": null,
+    "WarnMessage": null,
+    "Min": null,
+    "Max": null
+  },
+  "Communication": {
+    "PhoneAndMessage": {
+      "Checked": true,
+      "Points": null,
+      "IsRequired": false,
+      "IsRequiredForExpress": false,
+      "HasValue": false,
+      "IsFullField": false,
+      "Key": "PhoneSelection",
+      "Type": {
+        "Key": 160,
+        "Name": "MessageSelection",
+        "Description": "MessageSelection"
+      },
+      "InputType": {
+        "Key": 10,
+        "Name": "Checkbox",
+        "Description": "Checkbox"
+      },
+      "Name": "Sadece site üzerinden mesaj ile ulaşılsın.",
+      "Placeholder": null,
+      "Description": null,
+      "Unit": null,
+      "WarnMessage": null,
+      "Min": null,
+      "Max": null
+    },
+    "PhoneNumber": {
+      "Type": {
+        "Key": 10,
+        "Name": "OwnNumber",
+        "Description": "OwnNumber"
+      },
+      "Description": null,
+      "Value": "5419204573",
+      "DisplayValue": "5419204573"
+    },
+    "Phone": {
+      "Checked": false,
+      "Points": null,
+      "IsRequired": false,
+      "IsRequiredForExpress": false,
+      "HasValue": false,
+      "IsFullField": false,
+      "Key": "PhoneSelection",
+      "Type": {
+        "Key": 160,
+        "Name": "MessageSelection",
+        "Description": "MessageSelection"
+      },
+      "InputType": {
+        "Key": 10,
+        "Name": "Checkbox",
+        "Description": "Checkbox"
+      },
+      "Name": "Sadece site üzerinden mesaj ile ulaşılsın.",
+      "Placeholder": null,
+      "Description": null,
+      "Unit": null,
+      "WarnMessage": null,
+      "Min": null,
+      "Max": null
+    },
+    "Message": {
+      "Checked": false,
+      "Points": null,
+      "IsRequired": false,
+      "IsRequiredForExpress": false,
+      "HasValue": false,
+      "IsFullField": false,
+      "Key": "PhoneSelection",
+      "Type": {
+        "Key": 160,
+        "Name": "MessageSelection",
+        "Description": "MessageSelection"
+      },
+      "InputType": {
+        "Key": 10,
+        "Name": "Checkbox",
+        "Description": "Checkbox"
+      },
+      "Name": "Sadece site üzerinden mesaj ile ulaşılsın.",
+      "Placeholder": null,
+      "Description": null,
+      "Unit": null,
+      "WarnMessage": null,
+      "Min": null,
+      "Max": null
+    }
+  },
+  "DamageInfo": {
+    "ExpertiseCodes": [
+      {
+        "Code": "B0101",
+        "Name": "Sağ Arka Çamurluk",
+        "Value": 0,
+        "Order": 0
+      },
+      {
+        "Code": "B0201",
+        "Name": "Arka Kaput",
+        "Value": 0,
+        "Order": 1
+      },
+      {
+        "Code": "B0301",
+        "Name": "Sol Arka Çamurluk",
+        "Value": 0,
+        "Order": 2
+      },
+      {
+        "Code": "B0401",
+        "Name": "Sağ Arka Kapı",
+        "Value": 0,
+        "Order": 3
+      },
+      {
+        "Code": "B0501",
+        "Name": "Sağ Ön Kapı",
+        "Value": 0,
+        "Order": 4
+      },
+      {
+        "Code": "B0601",
+        "Name": "Tavan",
+        "Value": 0,
+        "Order": 5
+      },
+      {
+        "Code": "B0701",
+        "Name": "Sol Arka Kapı",
+        "Value": 0,
+        "Order": 6
+      },
+      {
+        "Code": "B0801",
+        "Name": "Sol Ön Kapı",
+        "Value": 0,
+        "Order": 7
+      },
+      {
+        "Code": "B0901",
+        "Name": "Sağ Ön Çamurluk",
+        "Value": 0,
+        "Order": 8
+      },
+      {
+        "Code": "B01001",
+        "Name": "Motor Kaputu",
+        "Value": 0,
+        "Order": 9
+      },
+      {
+        "Code": "B01101",
+        "Name": "Sol Ön Çamurluk",
+        "Value": 0,
+        "Order": 10
+      },
+      {
+        "Code": "B01201",
+        "Name": "Ön Tampon",
+        "Value": 0,
+        "Order": 11
+      },
+      {
+        "Code": "B01301",
+        "Name": "Arka Tampon",
+        "Value": 0,
+        "Order": 12
+      }
+    ],
+    "ExpertiseValues": [
+      {
+        "Key": 0,
+        "Name": "NotSet",
+        "Description": "Belirtilmemiş"
+      },
+      {
+        "Key": 1,
+        "Name": "Original",
+        "Description": "Orijinal"
+      },
+      {
+        "Key": 3,
+        "Name": "Painted",
+        "Description": "Boyanmış"
+      },
+      {
+        "Key": 4,
+        "Name": "SectionalPainted",
+        "Description": "Lokal Boyanmış"
+      },
+      {
+        "Key": 2,
+        "Name": "Changed",
+        "Description": "Değişmiş"
+      }
+    ],
+    "DamageInfo": {
+      "Status": [
+        {
+          "Selected": false,
+          "Status": 0,
+          "Description": "Seçiniz"
+        },
+        {
+          "Selected": true,
+          "Status": 3,
+          "Description": "Bilmiyorum"
+        },
+        {
+          "Selected": false,
+          "Status": 2,
+          "Description": "Tramer Yok"
+        },
+        {
+          "Selected": false,
+          "Status": 1,
+          "Description": "Tramer Var"
+        },
+        {
+          "Selected": false,
+          "Status": 4,
+          "Description": "Ağır Hasarlı"
+        }
+      ],
+      "DamagePrice": 0
+    },
+    "Points": [
+      {
+        "Min": 13,
+        "Max": null,
+        "Point": 4
+      },
+      {
+        "Min": null,
+        "Max": 12,
+        "Point": 2
+      }
+    ],
+    "IsRequired": false,
+    "IsRequiredForExpress": false,
+    "HasValue": false,
+    "IsFullField": false,
+    "Key": "DamageEntrance",
+    "Type": {
+      "Key": 50,
+      "Name": "DamageEntrance",
+      "Description": "DamageEntrance"
+    },
+    "InputType": {
+      "Key": 100,
+      "Name": "DamageEntrance",
+      "Description": "DamageEntrance"
+    },
+    "Name": "Boya, Değişen, Tramer",
+    "Placeholder": "Boya, Değişen, Tramer Seçiniz",
+    "Description": "Aracının boyalı ya da değişen parçası olmasa bile mutlaka belirt! Alıcılar bu bilgileri veren satıcılara daha çok güvenir.",
+    "Unit": null,
+    "WarnMessage": null,
+    "Min": null,
+    "Max": null
+  },
+  "Details": [
+    {
+      "SwapFilters": null,
+      "Values": [
+        {
+          "Id": 331,
+          "IconPath": null,
+          "Value": "Evet",
+          "DisplayValue": "Takasa Uygun"
+        },
+        {
+          "Id": 332,
+          "IconPath": null,
+          "Value": "Hayır",
+          "DisplayValue": "Takasa Uygun Değil"
+        }
+      ],
+      "SelectedValue": 332,
+      "Points": [
+        {
+          "Point": 1
+        }
+      ],
+      "IsRequired": false,
+      "IsRequiredForExpress": false,
+      "HasValue": true,
+      "IsFullField": false,
+      "Key": "85",
+      "Type": {
+        "Key": 40,
+        "Name": "DynamicProperty",
+        "Description": "DynamicProperty"
+      },
+      "InputType": {
+        "Key": 50,
+        "Name": "Select",
+        "Description": "Select"
+      },
+      "Name": "Takasa Uygun",
+      "Placeholder": "Seçiniz",
+      "Description": "Takasa açık mısın? Hangi araçlarla takas yapabileceğini söyle, sana uygun ilanları gösterelim, işini kolaylaştıralım.",
+      "Unit": null,
+      "WarnMessage": null,
+      "Min": null,
+      "Max": null
+    }
+  ],
+  "Equipment": {
+    "Equipments": [],
+    "Points": [
+      {
+        "Point": 1
+      }
+    ],
+    "IsRequired": false,
+    "IsRequiredForExpress": false,
+    "HasValue": false,
+    "IsFullField": false,
+    "Key": "Equipment",
+    "Type": {
+      "Key": 60,
+      "Name": "Equipment",
+      "Description": "Equipment"
+    },
+    "InputType": {
+      "Key": 110,
+      "Name": "Equipment",
+      "Description": "Equipment"
+    },
+    "Name": "Donanım",
+    "Placeholder": "Donanım Seçiniz",
+    "Description": "Aracınızın donanım bilgilerini detaylı girin, alıcıların gözünde diğer ilanlardan bir adım öne geçin!\r\n",
+    "Unit": null,
+    "WarnMessage": null,
+    "Min": null,
+    "Max": null
+  },
+  "SelectedCategories": [
+    {
+      "Key": "cat",
+      "Value": "28649"
+    },
+    {
+      "Key": "cat",
+      "Value": "28667"
+    },
+    {
+      "Key": "cat",
+      "Value": "28755"
+    },
+    {
+      "Key": "cat",
+      "Value": "62514"
+    }
+  ],
+  "Photos": [],
+  "IsCategoryEditable": true,
+  "Points": {
+    "MaxPoint": 26,
+    "PhotoPoints": [
+      {
+        "Key": "Photo",
+        "Min": 5,
+        "Max": null,
+        "Point": 4,
+        "Description": "Alıcılar fotoğrafı olmayan ilanlara güvenmiyor ve daha az görüntülüyorlar. Fotoğraf ekle daha fazla görüntülen. \r\n"
+      },
+      {
+        "Key": "Photo",
+        "Min": null,
+        "Max": 4,
+        "Point": 2,
+        "Description": "Çok az fotoğraf eklemişsin :( Aracın detaylı fotoğrafları olmayan ilanlar diğerlerinden daha az aranıyor!\r\n"
+      }
+    ]
+  },
+  "AdvertLegalObligationsResponse": {
+    "IdentityNumber": null,
+    "Plate": null,
+    "ChassisNumber": null,
+    "IsTurkishIdentityNumber": null
+  },
+  "ShowAdvertLegalObligations": true,
+  "AdvertUsers": []
+}
