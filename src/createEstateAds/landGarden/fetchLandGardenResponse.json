@@ -1,0 +1,134 @@
+{
+  "typeMap": {
+    "availableForCredit": [
+      { "id": 101802, "description": "Uygun" },
+      { "id": 101803, "description": "Uygun değil" }
+    ],
+    "flatReceived": [
+      { "id": 140701, "description": "Evet" },
+      { "id": 140702, "description": "Hayır" }
+    ],
+    "barter": [
+      { "id": 102101, "description": "Yapılır" },
+      { "id": 102102, "description": "Yapılmaz" }
+    ],
+    "parcelRegisterState": [
+      { "id": 110301, "description": "Hisseli Tapu" },
+      { "id": 110302, "description": "Müstakil Parsel" },
+      { "id": 110303, "description": "Tahsis" },
+      { "id": 110304, "description": "Zilliyet" },
+      { "id": 110305, "description": "Bilinmiyor" }
+    ],
+    "gabarite": [
+      { "id": 112001, "description": "3.50" },
+      { "id": 112002, "description": "6.50" },
+      { "id": 112003, "description": "7.50" },
+      { "id": 112004, "description": "8.50" },
+      { "id": 112005, "description": "9.50" },
+      { "id": 112006, "description": "11.50" },
+      { "id": 112007, "description": "12.50" },
+      { "id": 112008, "description": "14.50" },
+      { "id": 112009, "description": "15.50" },
+      { "id": 112010, "description": "18.50" },
+      { "id": 112011, "description": "21.50" },
+      { "id": 112012, "description": "24.50" },
+      { "id": 112013, "description": "27.50" },
+      { "id": 112014, "description": "30.50" },
+      { "id": 112015, "description": "36.00" },
+      { "id": 112016, "description": "Serbest" }
+    ],
+    "floorAreaRatio": [
+      { "id": 111001, "description": "0.05" },
+      { "id": 111002, "description": "0.10" },
+      { "id": 111003, "description": "0.15" },
+      { "id": 111004, "description": "0.20" },
+      { "id": 111005, "description": "0.25" },
+      { "id": 111006, "description": "0.30" },
+      { "id": 111007, "description": "0.35" },
+      { "id": 111008, "description": "0.40" },
+      { "id": 111009, "description": "0.45" },
+      { "id": 111010, "description": "0.50" },
+      { "id": 111011, "description": "0.60" },
+      { "id": 111012, "description": "0.70" },
+      { "id": 111013, "description": "0.75" },
+      { "id": 111014, "description": "0.80" },
+      { "id": 111015, "description": "0.90" },
+      { "id": 111016, "description": "0.95" },
+      { "id": 111017, "description": "1.0" },
+      { "id": 111018, "description": "1.05" },
+      { "id": 111019, "description": "1.10" },
+      { "id": 111020, "description": "1.20" },
+      { "id": 111021, "description": "1.25" },
+      { "id": 111022, "description": "1.30" },
+      { "id": 111023, "description": "1.35" },
+      { "id": 111024, "description": "1.40" },
+      { "id": 111025, "description": "1.45" },
+      { "id": 111026, "description": "1.50" },
+      { "id": 111027, "description": "1.55" },
+      { "id": 111028, "description": "1.60" },
+      { "id": 111029, "description": "1.75" },
+      { "id": 111030, "description": "1.80" },
+      { "id": 111031, "description": "1.90" },
+      { "id": 111032, "description": "2.0" },
+      { "id": 111033, "description": "2.07" },
+      { "id": 111034, "description": "2.10" },
+      { "id": 111035, "description": "2.15" },
+      { "id": 111036, "description": "2.30" },
+      { "id": 111037, "description": "2.40" },
+      { "id": 111038, "description": "2.80" },
+      { "id": 111039, "description": "3.0" },
+      { "id": 111040, "description": "3.20" },
+      { "id": 111041, "description": "5.0" },
+      { "id": 111042, "description": "10.20" },
+      { "id": 111043, "description": "15.30" }
+    ]
+  },
+  "mainAttributeList": [
+    {
+      "id": 100103,
+      "description": "Konum",
+      "attributeDtoList": [
+        { "id": 34, "description": "Denize sıfır" },
+        { "id": 35, "description": "Denize yakın" },
+        { "id": 64, "description": "Havaalanına yakın" },
+        { "id": 96, "description": "Manzara - Boğaz" },
+        { "id": 97, "description": "Manzara - Deniz" },
+        { "id": 98, "description": "Manzara - Doğa" },
+        { "id": 100, "description": "Manzara - Şehir" },
+        { "id": 162, "description": "Toplu Ulaşıma yakın" },
+        { "id": 172, "description": "Yola yakın" },
+        { "id": 230, "description": "Metrobüse yakın" },
+        { "id": 231, "description": "Deniz Ulaşımına yakın" },
+        { "id": 329, "description": "Tramvaya yakın" },
+        { "id": 330, "description": "Marmaraya yakın" },
+        { "id": 331, "description": "E-5'e yakın" },
+        { "id": 332, "description": "TEM'e yakın" },
+        { "id": 333, "description": "Minibüs / Dolmuşa yakın" },
+        { "id": 334, "description": "Avrasya Tüneli'ne yakın" },
+        { "id": 335, "description": "Boğaz köprülerine yakın" }
+      ]
+    },
+    {
+      "id": 100105,
+      "description": "Altyapı",
+      "attributeDtoList": [
+        { "id": 40, "description": "Doğalgaz mevcut" },
+        { "id": 46, "description": "Elektrik hattı" },
+        { "id": 74, "description": "İfrazlı" },
+        { "id": 81, "description": "Kanalizasyon" },
+        { "id": 129, "description": "Parselli" },
+        { "id": 133, "description": "Projeli(Ruhsatlı)" },
+        { "id": 137, "description": "Sanayi elektriği" },
+        { "id": 150, "description": "Su Hattı" },
+        { "id": 157, "description": "Telefon Hattı" },
+        { "id": 173, "description": "Yolu Açılmış" },
+        { "id": 175, "description": "Zemin Etüdlü" },
+        { "id": 336, "description": "Arıtma" },
+        { "id": 337, "description": "Sondaj ve Kuyu" },
+        { "id": 338, "description": "Yolu Yok" },
+        { "id": 339, "description": "Yolu Açılmamış" },
+        { "id": 340, "description": "Köşe Parselli" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "typeMap": {
+    "registerState": [
+      {
+        "id": 102001,
+        "description": "Arsa"
+      },
+      {
+        "id": 102002,
+        "description": "Kat İrtifakı"
+      },
+      {
+        "id": 102003,
+        "description": "Kat Mülkiyeti"
+      }
+    ],
+    "groundStudies": [
+      {
+        "id": 114001,
+        "description": "Var"
+      },
+      {
+        "id": 114002,
+        "description": "Yok"
+      }
+    ],
+    "usageState": [
+      {
+        "id": 101701,
+        "description": "Boş"
+      },
+      {
+        "id": 101702,
+        "description": "Kiracılı"
+      },
+      {
+        "id": 101703,
+        "description": "Mülk Sahibi"
+      },
+      {
+        "id": 101704,
+        "description": "Belirtilmemiş"
+      }
+    ],
+    "heatingType": [
+      {
+        "id": 101301,
+        "description": "Güneş Enerjisi"
+      },
+      {
+        "id": 101302,
+        "description": "Kat Kaloriferi"
+      },
+      {
+        "id": 101303,
+        "description": "Klima"
+      },
+      {
+        "id": 101304,
+        "description": "Kombi"
+      },
+      {
+        "id": 101305,
+        "description": "Merkezi"
+      },
+      {
+        "id": 101310,
+        "description": "Merkezi (Pay Ölçer)"
+      },
+      {
+        "id": 101306,
+        "description": "Soba"
+      },
+      {
+        "id": 101307,
+        "description": "Jeotermal Isıtma"
+      },
+      {
+        "id": 101311,
+        "description": "Yerden Isıtma"
+      },
+      {
+        "id": 101312,
+        "description": "Doğalgaz Sobası"
+      },
+      {
+        "id": 101313,
+        "description": "Fancoil Ünitesi"
+      },
+      {
+        "id": 101314,
+        "description": "VRV"
+      },
+      {
+        "id": 101315,
+        "description": "Isı Pompası"
+      },
+      {
+        "id": 101308,
+        "description": "Yok"
+      },
+      {
+        "id": 101309,
+        "description": "Belirtilmemiş"
+      }
+    ],
+    "availableForCredit": [
+      {
+        "id": 101802,
+        "description": "Uygun"
+      },
+      {
+        "id": 101803,
+        "description": "Uygun değil"
+      }
+    ],
+    "fuelType": [
+      {
+        "id": 101401,
+        "description": "Doğalgaz"
+      },
+      {
+        "id": 101402,
+        "description": "Kömür-Odun"
+      },
+      {
+        "id": 101403,
+        "description": "Akaryakıt"
+      },
+      {
+        "id": 101404,
+        "description": "Elektrik"
+      }
+    ],
+    "barter": [
+      {
+        "id": 102101,
+        "description": "Yapılır"
+      },
+      {
+        "id": 102102,
+        "description": "Yapılmaz"
+      }
+    ],
+    "buildingState": [
+      {
+        "id": 101601,
+        "description": "Sıfır"
+      },
+      {
+        "id": 101602,
+        "description": "İkinci El"
+      },
+      {
+        "id": 101603,
+        "description": "Yapım Aşamasında"
+      }
+    ],
+    "floor": [
+      {
+        "id": 101209,
+        "description": "Yüksek Giriş"
+      },
+      {
+        "id": 101237,
+        "description": "Ara Kat"
+      },
+      {
+        "id": 101214,
+        "description": "En Üst Kat"
+      },
+      {
+        "id": 101212,
+        "description": "Çatı Katı"
+      },
+      {
+        "id": 101213,
+        "description": "Teras Katı"
+      },
+      {
+        "id": 101203,
+        "description": "Bodrum"
+      },
+      {
+        "id": 101204,
+        "description": "Yarı Bodrum"
+      },
+      {
+        "id": 101206,
+        "description": "Bodrum ve Zemin"
+      },
+      {
+        "id": 101205,
+        "description": "Zemin"
+      },
+      {
+        "id": 101207,
+        "description": "Bahçe Katı"
+      },
+      {
+        "id": 101208,
+        "description": "Giriş Katı"
+      },
+      {
+        "id": 101210,
+        "description": "Villa Katı"
+      },
+      {
+        "id": 101211,
+        "description": "Asma Kat"
+      },
+      {
+        "id": 101202,
+        "description": "Kot 1"
+      },
+      {
+        "id": 101201,
+        "description": "Kot 2"
+      },
+      {
+        "id": 101236,
+        "description": "Kot 3"
+      },
+      {
+        "id": 101215,
+        "description": "1"
+      },
+      {
+        "id": 101216,
+        "description": "2"
+      },
+      {
+        "id": 101217,
+        "description": "3"
+      },
+      {
+        "id": 101218,
+        "description": "4"
+      },
+      {
+        "id": 101219,
+        "description": "5"
+      },
+      {
+        "id": 101220,
+        "description": "6"
+      },
+      {
+        "id": 101221,
+        "description": "7"
+      },
+      {
+        "id": 101222,
+        "description": "8"
+      },
+      {
+        "id": 101223,
+        "description": "9"
+      },
+      {
+        "id": 101224,
+        "description": "10"
+      },
+      {
+        "id": 101225,
+        "description": "11"
+      },
+      {
+        "id": 101226,
+        "description": "12"
+      },
+      {
+        "id": 101227,
+        "description": "13"
+      },
+      {
+        "id": 101228,
+        "description": "14"
+      },
+      {
+        "id": 101229,
+        "description": "15"
+      },
+      {
+        "id": 101230,
+        "description": "16"
+      },
+      {
+        "id": 101231,
+        "description": "17"
+      },
+      {
+        "id": 101232,
+        "description": "18"
+      },
+      {
+        "id": 101233,
+        "description": "19"
+      },
+      {
+        "id": 101234,
+        "description": "20"
+      },
+      {
+        "id": 101235,
+        "description": "21 ve üzeri"
+      }
+    ]
+  },
+  "mainAttributeList": [
+    {
+      "id": 100101,
+      "description": "İç Özellikler",
+      "attributeDtoList": [
+        {
+          "id": 1,
+          "description": "ADSL"
+        },
+        {
+          "id": 3,
+          "description": "Alarm"
+        },
+        {
+          "id": 5,
+          "description": "Alüminyum Doğrama"
+        },
+        {
+          "id": 10,
+          "description": "Asma Tavan"
+        },
+        {
+          "id": 18,
+          "description": "Banyo"
+        },
+        {
+          "id": 22,
+          "description": "Beyaz Eşyalı"
+        },
+        {
+          "id": 31,
+          "description": "Çelik Kapı"
+        },
+        {
+          "id": 33,
+          "description": "Data Hattı"
+        },
+        {
+          "id": 48,
+          "description": "Faks , Telefon Hattı"
+        },
+        {
+          "id": 79,
+          "description": "Kablo TV-Uydu"
+        },
+        {
+          "id": 87,
+          "description": "Klima"
+        },
+        {
+          "id": 113,
+          "description": "Mutfak"
+        },
+        {
+          "id": 117,
+          "description": "Ofis Mobilyalı"
+        },
+        {
+          "id": 126,
+          "description": "Panjur"
+        },
+        {
+          "id": 137,
+          "description": "Sanayi elektriği"
+        },
+        {
+          "id": 160,
+          "description": "Teras"
+        },
+        {
+          "id": 166,
+          "description": "Vestiyer"
+        },
+        {
+          "id": 168,
+          "description": "Wc"
+        },
+        {
+          "id": 205,
+          "description": "Karo Zemin"
+        },
+        {
+          "id": 341,
+          "description": "Parke Zemin"
+        }
+      ]
+    },
+    {
+      "id": 100102,
+      "description": "Dış Özellikler",
+      "attributeDtoList": [
+        {
+          "id": 9,
+          "description": "Asansör"
+        },
+        {
+          "id": 12,
+          "description": "Bahçe"
+        },
+        {
+          "id": 13,
+          "description": "Bahçe - Müstakil"
+        },
+        {
+          "id": 14,
+          "description": "Bahçe - Ortak Kullanımlı"
+        },
+        {
+          "id": 28,
+          "description": "Cam Giydirme"
+        },
+        {
+          "id": 53,
+          "description": "Garaj"
+        },
+        {
+          "id": 61,
+          "description": "Güvenlik"
+        },
+        {
+          "id": 70,
+          "description": "Hidrofor"
+        },
+        {
+          "id": 77,
+          "description": "Jeneratör"
+        },
+        {
+          "id": 121,
+          "description": "Otopark - Açık"
+        },
+        {
+          "id": 122,
+          "description": "Otopark - Kapalı"
+        },
+        {
+          "id": 149,
+          "description": "Su deposu"
+        },
+        {
+          "id": 170,
+          "description": "Yangın Merdiveni"
+        }
+      ]
+    },
+    {
+      "id": 100103,
+      "description": "Konum",
+      "attributeDtoList": [
+        {
+          "id": 8,
+          "description": "Arka cephe"
+        },
+        {
+          "id": 64,
+          "description": "Havaalanına yakın"
+        },
+        {
+          "id": 94,
+          "description": "Manzara"
+        },
+        {
+          "id": 96,
+          "description": "Manzara - Boğaz"
+        },
+        {
+          "id": 97,
+          "description": "Manzara - Deniz"
+        },
+        {
+          "id": 98,
+          "description": "Manzara - Doğa"
+        },
+        {
+          "id": 100,
+          "description": "Manzara - Şehir"
+        },
+        {
+          "id": 104,
+          "description": "Merkezde"
+        },
+        {
+          "id": 108,
+          "description": "Metroya yakın"
+        },
+        {
+          "id": 124,
+          "description": "Ön cephe"
+        },
+        {
+          "id": 162,
+          "description": "Toplu Ulaşıma yakın"
+        },
+        {
+          "id": 230,
+          "description": "Metrobüse yakın"
+        },
+        {
+          "id": 231,
+          "description": "Deniz Ulaşımına yakın"
+        },
+        {
+          "id": 328,
+          "description": "Cadde Üzerinde"
+        },
+        {
+          "id": 329,
+          "description": "Tramvaya yakın"
+        },
+        {
+          "id": 330,
+          "description": "Marmaraya yakın"
+        },
+        {
+          "id": 331,
+          "description": "E-5'e yakın"
+        },
+        {
+          "id": 332,
+          "description": "TEM'e yakın"
+        },
+        {
+          "id": 333,
+          "description": "Minibüs / Dolmuşa yakın"
+        },
+        {
+          "id": 334,
+          "description": "Avrasya Tüneli'ne yakın"
+        },
+        {
+          "id": 335,
+          "description": "Boğaz köprülerine yakın"
+        }
+      ]
+    },
+    {
+      "id": 100104,
+      "description": "Kullanım Amacı",
+      "attributeDtoList": [
+        {
+          "id": 11,
+          "description": "Atölye"
+        },
+        {
+          "id": 17,
+          "description": "Banka"
+        },
+        {
+          "id": 36,
+          "description": "Depo"
+        },
+        {
+          "id": 37,
+          "description": "Dershane"
+        },
+        {
+          "id": 44,
+          "description": "Dükkan"
+        },
+        {
+          "id": 47,
+          "description": "Fabrika"
+        },
+        {
+          "id": 52,
+          "description": "Galeri / Showroom"
+        },
+        {
+          "id": 55,
+          "description": "Genel"
+        },
+        {
+          "id": 63,
+          "description": "Hastane"
+        },
+        {
+          "id": 80,
+          "description": "Kafe - Bar"
+        },
+        {
+          "id": 93,
+          "description": "Mağaza"
+        },
+        {
+          "id": 101,
+          "description": "Market"
+        },
+        {
+          "id": 112,
+          "description": "Muayenehane"
+        },
+        {
+          "id": 116,
+          "description": "Ofis"
+        },
+        {
+          "id": 120,
+          "description": "Otopark"
+        },
+        {
+          "id": 130,
+          "description": "Pastane"
+        },
+        {
+          "id": 132,
+          "description": "Poliklinik"
+        },
+        {
+          "id": 136,
+          "description": "Restoran"
+        },
+        {
+          "id": 165,
+          "description": "Üretim tesisi"
+        },
+        {
+          "id": 197,
+          "description": "Kuaför"
+        },
+        {
+          "id": 232,
+          "description": "Büfe"
+        }
+      ]
+    }
+  ]
+}

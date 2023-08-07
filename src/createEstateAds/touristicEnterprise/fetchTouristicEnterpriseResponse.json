@@ -1,0 +1,370 @@
+{
+  "typeMap": {
+    "registerState": [
+      {
+        "id": 102001,
+        "description": "Arsa"
+      },
+      {
+        "id": 102002,
+        "description": "Kat İrtifakı"
+      },
+      {
+        "id": 102003,
+        "description": "Kat Mülkiyeti"
+      }
+    ],
+    "starCount": [
+      {
+        "id": 101101,
+        "description": "5 Yıldız"
+      },
+      {
+        "id": 101102,
+        "description": "4 Yıldız"
+      },
+      {
+        "id": 101103,
+        "description": "3 Yıldız"
+      },
+      {
+        "id": 101104,
+        "description": "2 Yıldız"
+      },
+      {
+        "id": 101105,
+        "description": "1 Yıldız"
+      },
+      {
+        "id": 101106,
+        "description": "1. Sınıf TK"
+      },
+      {
+        "id": 101107,
+        "description": "2. Sınıf TK"
+      },
+      {
+        "id": 101108,
+        "description": "Özel Belgeli"
+      },
+      {
+        "id": 101109,
+        "description": "Diğer"
+      }
+    ],
+    "barter": [
+      {
+        "id": 102101,
+        "description": "Yapılır"
+      },
+      {
+        "id": 102102,
+        "description": "Yapılmaz"
+      }
+    ]
+  },
+  "mainAttributeList": [
+    {
+      "id": 100101,
+      "description": "İç Özellikler",
+      "attributeDtoList": [
+        {
+          "id": 5,
+          "description": "Alüminyum Doğrama"
+        },
+        {
+          "id": 9,
+          "description": "Asansör"
+        },
+        {
+          "id": 60,
+          "description": "Güneş enerjisi"
+        },
+        {
+          "id": 61,
+          "description": "Güvenlik"
+        },
+        {
+          "id": 75,
+          "description": "İnternet"
+        },
+        {
+          "id": 77,
+          "description": "Jeneratör"
+        },
+        {
+          "id": 105,
+          "description": "Merkezi Isıtma"
+        },
+        {
+          "id": 106,
+          "description": "Merkezi Klima"
+        },
+        {
+          "id": 111,
+          "description": "Mobilyalı"
+        },
+        {
+          "id": 155,
+          "description": "Şömine"
+        },
+        {
+          "id": 166,
+          "description": "Vestiyer"
+        },
+        {
+          "id": 170,
+          "description": "Yangın Merdiveni"
+        },
+        {
+          "id": 205,
+          "description": "Karo Zemin"
+        }
+      ]
+    },
+    {
+      "id": 100102,
+      "description": "Dış Özellikler",
+      "attributeDtoList": [
+        {
+          "id": 4,
+          "description": "Alkol İzni"
+        },
+        {
+          "id": 12,
+          "description": "Bahçe"
+        },
+        {
+          "id": 27,
+          "description": "Cafe - Bar"
+        },
+        {
+          "id": 32,
+          "description": "Çocuk Havuzu"
+        },
+        {
+          "id": 38,
+          "description": "Disco"
+        },
+        {
+          "id": 54,
+          "description": "Gece Klübü"
+        },
+        {
+          "id": 65,
+          "description": "Havuz - Açık"
+        },
+        {
+          "id": 67,
+          "description": "Havuz - Kapalı"
+        },
+        {
+          "id": 68,
+          "description": "Havuz - Termal"
+        },
+        {
+          "id": 88,
+          "description": "Kongre Salonu"
+        },
+        {
+          "id": 90,
+          "description": "Kumsal"
+        },
+        {
+          "id": 123,
+          "description": "Oyun Parkı"
+        },
+        {
+          "id": 131,
+          "description": "Plaj"
+        },
+        {
+          "id": 135,
+          "description": "Restaurant"
+        },
+        {
+          "id": 141,
+          "description": "Sauna - Hamam"
+        },
+        {
+          "id": 144,
+          "description": "Sinema"
+        }
+      ]
+    },
+    {
+      "id": 100103,
+      "description": "Konum",
+      "attributeDtoList": [
+        {
+          "id": 34,
+          "description": "Denize sıfır"
+        },
+        {
+          "id": 35,
+          "description": "Denize yakın"
+        },
+        {
+          "id": 39,
+          "description": "Doğa İçinde"
+        },
+        {
+          "id": 64,
+          "description": "Havaalanına yakın"
+        },
+        {
+          "id": 86,
+          "description": "Kayak Pistlerine yakın"
+        },
+        {
+          "id": 96,
+          "description": "Manzara - Boğaz"
+        },
+        {
+          "id": 97,
+          "description": "Manzara - Deniz"
+        },
+        {
+          "id": 98,
+          "description": "Manzara - Doğa"
+        },
+        {
+          "id": 99,
+          "description": "Manzara - Göl"
+        },
+        {
+          "id": 100,
+          "description": "Manzara - Şehir"
+        },
+        {
+          "id": 119,
+          "description": "Otogara yakın"
+        },
+        {
+          "id": 153,
+          "description": "Şehir merkezinde"
+        },
+        {
+          "id": 154,
+          "description": "Şehir merkezine yakın"
+        },
+        {
+          "id": 230,
+          "description": "Metrobüse yakın"
+        },
+        {
+          "id": 231,
+          "description": "Deniz Ulaşımına yakın"
+        }
+      ]
+    },
+    {
+      "id": 100106,
+      "description": "Oda Özellikleri",
+      "attributeDtoList": [
+        {
+          "id": 41,
+          "description": "Duş / WC"
+        },
+        {
+          "id": 76,
+          "description": "Jakuzi"
+        },
+        {
+          "id": 87,
+          "description": "Klima"
+        },
+        {
+          "id": 91,
+          "description": "Küvetli Banyo"
+        },
+        {
+          "id": 109,
+          "description": "Mini Bar"
+        },
+        {
+          "id": 115,
+          "description": "Müzik Yayını"
+        },
+        {
+          "id": 156,
+          "description": "Telefon"
+        },
+        {
+          "id": 164,
+          "description": "TV"
+        }
+      ]
+    },
+    {
+      "id": 100107,
+      "description": "Sosyal Tesisler",
+      "attributeDtoList": [
+        {
+          "id": 21,
+          "description": "Basketbol"
+        },
+        {
+          "id": 23,
+          "description": "Bilardo"
+        },
+        {
+          "id": 24,
+          "description": "Binicilik"
+        },
+        {
+          "id": 25,
+          "description": "Bowling"
+        },
+        {
+          "id": 50,
+          "description": "Fitness Merkezi"
+        },
+        {
+          "id": 51,
+          "description": "Futbol"
+        },
+        {
+          "id": 57,
+          "description": "Golf"
+        },
+        {
+          "id": 78,
+          "description": "Jimnastik Salonu"
+        },
+        {
+          "id": 85,
+          "description": "Kayak"
+        },
+        {
+          "id": 103,
+          "description": "Masa Tenisi"
+        },
+        {
+          "id": 110,
+          "description": "Mini Golf"
+        },
+        {
+          "id": 146,
+          "description": "Spor kompleksi"
+        },
+        {
+          "id": 148,
+          "description": "Squash"
+        },
+        {
+          "id": 151,
+          "description": "Su Sporları"
+        },
+        {
+          "id": 158,
+          "description": "Tenis"
+        },
+        {
+          "id": 167,
+          "description": "Voleybol"
+        }
+      ]
+    }
+  ]
+}
